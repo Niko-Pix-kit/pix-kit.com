@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-labelledby="title">
+  <title id="title">Pix-Data icon</title>
+  <rect width="108" height="108" rx="26" fill="#F7F9FE"/>
+  <path fill="#3B66C8" d="M18,22H42V34H32V74H42V86H18Z"/>
+  <path fill="#3B66C8" d="M90,22H66V34H76V74H66V86H90Z"/>
+  <path fill="#111111" d="M34,34H74V78H34Z"/>
+  <path fill="#FFFFFF" d="M38,38H70V74H38Z"/>
+  <path fill="none" stroke="#3B66C8" stroke-width="3" d="M49,39V73M59,39V73M38,50H70M38,62H70"/>
+  <path fill="#FF6B20" d="M47,14H61V28H47Z"/>
+  <path fill="#FF6B20" d="M48,82H60V94H48Z"/>
+</svg>

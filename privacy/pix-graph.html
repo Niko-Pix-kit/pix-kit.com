@@ -1,0 +1,312 @@
+        <!doctype html>
+        <html lang="en">
+        <head>
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <title>Pix-Graph Privacy Policy</title>
+          <style>
+        :root {
+  --blue: #2f63d8;
+  --blue-strong: #0878D8;
+  --orange: #f97316;
+  --ink: #111827;
+  --muted: #5f6b7a;
+  --line: #e5e7eb;
+  --card: #ffffff;
+  --bg: #ffffff;
+  --soft: #f8fafc;
+  --shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+}
+a { color: var(--blue); text-decoration: none; font-weight: 700; }
+a:hover { text-decoration: underline; }
+.wrap {
+  width: min(1080px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 42px 0 76px;
+}
+.site-header {
+  text-align: center;
+  padding: 44px 20px 16px;
+}
+.banner {
+  width: min(900px, 100%);
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.intro {
+  max-width: 740px;
+  margin: 18px auto 0;
+  color: var(--muted);
+  font-size: 18px;
+}
+.apps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+  margin-top: 36px;
+}
+.app-card, .card {
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--card);
+  box-shadow: var(--shadow);
+}
+.app-card {
+  padding: 24px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.app-head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.app-icon {
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.10);
+  flex: 0 0 auto;
+}
+.app-card h2 {
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: -0.03em;
+}
+.app-card p {
+  margin: 0;
+  color: #263241;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 8px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: var(--blue);
+  color: #fff;
+  border: 1px solid var(--blue);
+  font-size: 14px;
+}
+.button:hover { text-decoration: none; filter: brightness(0.97); }
+.button.secondary {
+  background: var(--soft);
+  color: var(--blue);
+  border-color: var(--line);
+}
+.footer {
+  text-align: center;
+  color: var(--muted);
+  margin-top: 40px;
+  font-size: 14px;
+}
+.hero {
+  text-align: center;
+  padding: 18px 0 42px;
+}
+.brand-pair {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.brand-symbol {
+  display: block;
+  width: 96px;
+  height: auto;
+  object-fit: contain;
+}
+.brand-plus {
+  color: var(--muted);
+  font-size: 24px;
+  font-weight: 900;
+}
+.brand-app-icon {
+  width: 82px;
+  height: 82px;
+  border-radius: 22px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.10);
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--soft);
+  font-weight: 800;
+  font-size: 14px;
+}
+.mark {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--orange);
+  box-shadow: 18px 0 0 var(--blue);
+  margin-right: 18px;
+}
+h1 {
+  margin: 22px 0 10px;
+  font-size: clamp(36px, 6vw, 62px);
+  line-height: 1.05;
+  letter-spacing: -0.05em;
+}
+.subtitle {
+  margin: 0 auto;
+  max-width: 780px;
+  color: var(--muted);
+  font-size: 18px;
+}
+.meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+.meta div {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 16px;
+  color: var(--muted);
+  text-align: left;
+}
+.meta strong {
+  display: block;
+  color: var(--ink);
+  margin-bottom: 2px;
+}
+.card {
+  padding: 34px 40px;
+  margin: 22px 0;
+}
+.card h2 {
+  margin: 0 0 14px;
+  font-size: 25px;
+  letter-spacing: -0.02em;
+}
+.card p, .card li { color: #263241; }
+ul { padding-left: 22px; }
+.top-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 22px;
+}
+@media (max-width: 860px) {
+  .apps { grid-template-columns: 1fr; }
+  .app-card { padding: 22px; }
+}
+@media (max-width: 640px) {
+  .wrap { width: min(100% - 20px, 1080px); padding-top: 26px; }
+  .site-header { padding-top: 28px; }
+  .card { padding: 24px 20px; border-radius: 18px; }
+  .brand-symbol { width: 84px; }
+  .brand-app-icon { width: 72px; height: 72px; }
+  .brand-plus { display: none; }
+  .app-head { align-items: flex-start; }
+}
+
+          </style>
+        </head>
+        <body>
+          <main class="wrap">
+            <section class="hero">
+              <div class="brand-pair">
+                <img class="brand-symbol" src="../assets/pix-kit-logo-symbol.png" alt="Pix-Kit logo" />
+                <span class="brand-plus" aria-hidden="true">+</span>
+                <img class="brand-app-icon" src="../assets/icons/pix-graph.svg" alt="Pix-Graph icon" />
+              </div>
+              <div class="badge"><span class="mark"></span>Pix-kit · Pix-Graph</div>
+              <h1>Privacy Policy</h1>
+              <p class="subtitle">Pix-Graph helps users digitize charts from images, extract graph data, export spreadsheets, and optionally back up graph projects to Google Drive.</p>
+              <div class="meta">
+                <div><strong>Effective date</strong>June 4, 2026</div>
+                <div><strong>Developer</strong>Pix-kit</div>
+                <div><strong>Contact</strong><a href="mailto:niko@pix-kit.com">niko@pix-kit.com</a></div>
+              </div>
+              <div class="top-links">
+                <a class="button secondary" href="../index.html">Back to Pix-Kit</a>
+              </div>
+            </section>
+
+        <section class="card">
+      <h2>Summary</h2>
+<p>Pix-Graph is designed to work mainly on your device. Cloud backup is optional and uses Google Drive only when you choose to connect it. Pix-Graph does not sell personal data, does not use advertising tracking, and does not collect analytics for advertising purposes.</p>
+    </section>
+    <section class="card">
+      <h2>1. Information Pix-Graph handles</h2>
+<p>Pix-Graph may handle the following information when you choose to use its features:</p>
+<ul>
+  <li>Images or photos of graphs that you import or capture.</li>
+  <li>Graph calibration data, marked points, labels, chart type, axis titles, regression formulas, histogram bars, pie chart slices, and exported spreadsheet data.</li>
+  <li>Saved graph project files, thumbnails, and metadata such as graph title and save date.</li>
+  <li>Google account information shown by Google Drive after you choose to connect Google Drive backup, such as the account used for synchronization.</li>
+</ul>
+<p>Pix-Graph does not intentionally collect sensitive personal information. The content of graph images and project data depends on what you choose to import, create, save, export, or back up.</p>
+    </section>
+    <section class="card">
+      <h2>2. Local storage</h2>
+<p>Graph projects are saved locally on your device so that you can reopen and edit them later. Local saved data may include the original graph image, a thumbnail, calibration points, marked points, histogram bars, pie chart slices, formulas, and export settings.</p><p>You can delete saved graphs from inside the app. Removing the app from your device may also remove local app data depending on Android system behavior and your backup settings.</p>
+    </section>
+    <section class="card">
+      <h2>3. Google Drive backup</h2>
+<p>Google Drive backup is optional. If you choose to connect Google Drive, Pix-Graph uses your permission to save, restore, and synchronize Pix-Graph project bundles in your own Google Drive account.</p><p>Pix-Graph is designed to use Google Drive app-specific storage where available. This means the app requests access for storing and restoring Pix-Graph data, not for browsing all of your Google Drive files.</p><p>You can disconnect Google Drive backup from inside the app. You can also revoke Pix-Graph access from your Google account settings at any time. Google may process your data according to Google’s own privacy policy and account settings.</p>
+    </section>
+    <section class="card">
+      <h2>4. Export and sharing</h2>
+<p>Pix-Graph can export graph data to spreadsheet files. When you use Android sharing features, you choose the destination app or service. Pix-Graph does not control how another app, email provider, cloud service, or spreadsheet app handles the file after you share it.</p>
+    </section>
+    <section class="card">
+      <h2>5. Permissions</h2>
+<p>Depending on your Android version and the features you use, Pix-Graph may request permissions or access flows for:</p><ul><li>Camera access, when you take a photo of a graph.</li><li>Image or file access, when you import a graph image.</li><li>Google Drive authorization, when you choose Google Drive backup.</li></ul><p>These permissions are used only to provide the feature you selected.</p>
+    </section>
+    <section class="card">
+      <h2>6. Data sharing</h2>
+<p>Pix-Graph does not sell your personal data. Pix-Graph does not share your graph data with advertisers. Data is shared only when you choose to export, share, or synchronize it through a third-party service such as Google Drive.</p>
+    </section>
+    <section class="card">
+      <h2>7. Children’s privacy</h2>
+<p>Pix-Graph is a utility app for extracting data from charts. It is not designed to collect personal information from children. If you believe that a child has provided personal information through the app, contact us so we can help address the issue.</p>
+    </section>
+    <section class="card">
+      <h2>8. Security</h2>
+<p>Pix-Graph uses platform authorization flows for Google Drive. Cloud access tokens are used only to perform synchronization actions requested by the user. No system can be guaranteed perfectly secure, but Pix-Graph is designed to minimize access by using limited cloud scopes where possible.</p>
+    </section>
+    <section class="card">
+      <h2>9. Changes to this policy</h2>
+<p>This policy may be updated as Pix-Graph evolves. When changes are made, the effective date at the top of this page will be updated.</p>
+    </section>
+    <section class="card">
+      <h2>10. Contact</h2>
+<p>For privacy questions, requests, or concerns, contact:</p><p><strong>Developer:</strong> Pix-kit<br /><strong>Email:</strong> <a href="mailto:niko@pix-kit.com">niko@pix-kit.com</a></p>
+    </section>
+
+            <p class="footer">© 2026 Pix-kit · Pix-Graph</p>
+          </main>
+        </body>
+        </html>

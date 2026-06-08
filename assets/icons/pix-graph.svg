@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-labelledby="title">
+  <title id="title">Pix-Graph icon</title>
+  <rect width="108" height="108" rx="26" fill="#EAF5FF"/>
+  <path fill="#FFF0E3" d="M14,20 C36,0 76,5 94,33 C111,60 92,97 58,101 C30,105 7,83 8,55 C9,40 10,28 14,20 Z"/>
+  <path d="M24,78 L24,28 M24,78 L86,78" fill="none" stroke="#0878D8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31,68 L45,55 L58,60 L80,31" fill="none" stroke="#0878D8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path fill="#FF7300" d="M38,48 h14 v14 h-14 Z"/>
+  <path fill="#FF7300" d="M51,53 h14 v14 h-14 Z"/>
+  <path fill="#FF7300" d="M73,24 h14 v14 h-14 Z"/>
+</svg>
