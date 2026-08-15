@@ -1,292 +1,193 @@
-        <!doctype html>
-        <html lang="en">
-        <head>
-          <meta charset="utf-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Pix-Kit</title>
-            <link rel="icon" type="image/png" href="/assets/pix-kit-logo-symbol.png" />
-            <link rel="apple-touch-icon" href="/assets/pix-kit-logo-symbol.png" />
-          <style>
-        :root {
-  --blue: #2f63d8;
-  --blue-strong: #0878D8;
-  --orange: #f97316;
-  --ink: #111827;
-  --ink: #111827;
-  --muted: #5f6b7a;
-  --line: #e5e7eb;
-  --card: #ffffff;
-  --bg: #ffffff;
-  --soft: #f8fafc;
-  --shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-  background: var(--bg);
-  color: var(--ink);
-  line-height: 1.6;
-}
-a { color: var(--blue); text-decoration: none; font-weight: 700; }
-a:hover { text-decoration: underline; }
-.wrap {
-  width: min(1080px, calc(100% - 32px));
-  margin: 0 auto;
-  padding: 42px 0 76px;
-}
-.site-header {
-  text-align: center;
-  padding: 44px 20px 16px;
-}
-.banner {
-  width: min(900px, 100%);
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-.intro {
-  max-width: 740px;
-  margin: 18px auto 0;
-  color: var(--muted);
-  font-size: 18px;
-}
-.apps {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
-  margin-top: 36px;
-}
-.app-card, .card {
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  background: var(--card);
-  box-shadow: var(--shadow);
-}
-.app-card {
-  padding: 24px;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-.app-head {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-.app-icon {
-  width: 72px;
-  height: 72px;
-  border-radius: 20px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.10);
-  flex: 0 0 auto;
-}
-.app-card h2 {
-  margin: 0;
-  font-size: 25px;
-  letter-spacing: -0.03em;
-}
-.app-card p {
-  margin: 0;
-  color: #263241;
-}
-.actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: auto;
-  padding-top: 8px;
-}
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 42px;
-  padding: 9px 14px;
-  border-radius: 999px;
-  background: var(--blue);
-  color: #fff;
-  border: 1px solid var(--blue);
-  font-size: 14px;
-}
-.button:hover { text-decoration: none; filter: brightness(0.97); }
-.button.secondary {
-  background: var(--soft);
-  color: var(--blue);
-  border-color: var(--line);
-}
-.footer {
-  text-align: center;
-  color: var(--muted);
-  margin-top: 40px;
-  font-size: 14px;
-}
-.hero {
-  text-align: center;
-  padding: 18px 0 42px;
-}
-.brand-pair {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 18px;
-  flex-wrap: wrap;
-  margin-bottom: 18px;
-}
-.brand-symbol {
-  display: block;
-  width: 96px;
-  height: auto;
-  object-fit: contain;
-}
-.brand-plus {
-  color: var(--muted);
-  font-size: 24px;
-  font-weight: 900;
-}
-.brand-app-icon {
-  width: 82px;
-  height: 82px;
-  border-radius: 22px;
-  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.10);
-}
-.badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 14px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--muted);
-  background: var(--soft);
-  font-weight: 800;
-  font-size: 14px;
-}
-.mark {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--orange);
-  box-shadow: 18px 0 0 var(--blue);
-  margin-right: 18px;
-}
-h1 {
-  margin: 22px 0 10px;
-  font-size: clamp(36px, 6vw, 62px);
-  line-height: 1.05;
-  letter-spacing: -0.05em;
-}
-.subtitle {
-  margin: 0 auto;
-  max-width: 780px;
-  color: var(--muted);
-  font-size: 18px;
-}
-.meta {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 14px;
-  margin-top: 24px;
-}
-.meta div {
-  background: var(--soft);
-  border: 1px solid var(--line);
-  border-radius: 14px;
-  padding: 14px 16px;
-  color: var(--muted);
-  text-align: left;
-}
-.meta strong {
-  display: block;
-  color: var(--ink);
-  margin-bottom: 2px;
-}
-.card {
-  padding: 34px 40px;
-  margin: 22px 0;
-}
-.card h2 {
-  margin: 0 0 14px;
-  font-size: 25px;
-  letter-spacing: -0.02em;
-}
-.card p, .card li { color: #263241; }
-ul { padding-left: 22px; }
-.top-links {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 22px;
-}
-@media (max-width: 860px) {
-  .apps { grid-template-columns: 1fr; }
-  .app-card { padding: 22px; }
-}
-@media (max-width: 640px) {
-  .wrap { width: min(100% - 20px, 1080px); padding-top: 26px; }
-  .site-header { padding-top: 28px; }
-  .card { padding: 24px 20px; border-radius: 18px; }
-  .brand-symbol { width: 84px; }
-  .brand-app-icon { width: 72px; height: 72px; }
-  .brand-plus { display: none; }
-  .app-head { align-items: flex-start; }
-}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pix-Kit</title>
+  <link rel="icon" type="image/png" href="/assets/pix-kit-logo-symbol.png" />
+  <link rel="apple-touch-icon" href="/assets/pix-kit-logo-symbol.png" />
+  <style>
+    :root {
+      --blue: #2f63d8;
+      --orange: #f97316;
+      --ink: #111827;
+      --muted: #5f6b7a;
+      --line: #e5e7eb;
+      --card: #ffffff;
+      --bg: #ffffff;
+      --soft: #f8fafc;
+      --shadow: 0 8px 28px rgba(15, 23, 42, 0.06);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+    }
+    a { color: var(--blue); text-decoration: none; font-weight: 700; }
+    a:hover { text-decoration: underline; }
+    .wrap {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0 76px;
+    }
+    .site-header {
+      text-align: center;
+      padding: 44px 20px 16px;
+    }
+    .banner {
+      width: min(900px, 100%);
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+    .intro {
+      max-width: 740px;
+      margin: 18px auto 0;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .apps {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+      margin-top: 36px;
+    }
+    .app-card {
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .app-head {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 20px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.10);
+      flex: 0 0 auto;
+    }
+    .app-card h2 {
+      margin: 0;
+      font-size: 25px;
+      letter-spacing: -0.03em;
+    }
+    .app-card p {
+      margin: 0;
+      color: #263241;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: auto;
+      padding-top: 8px;
+    }
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: var(--blue);
+      color: #fff;
+      border: 1px solid var(--blue);
+      font-size: 14px;
+    }
+    .button:hover { text-decoration: none; filter: brightness(0.97); }
+    .footer {
+      text-align: center;
+      color: var(--muted);
+      margin-top: 40px;
+      font-size: 14px;
+    }
+    @media (max-width: 860px) {
+      .apps { grid-template-columns: 1fr; }
+      .app-card { padding: 22px; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 20px, 1080px); padding-top: 26px; }
+      .site-header { padding-top: 28px; }
+      .app-head { align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <img class="banner" src="assets/banner.png" alt="Pix-Kit banner" />
+    <p class="intro">A family of focused Android tools for learning, data work, building surveys, and mobile app development.</p>
+  </header>
 
-          </style>
-        </head>
-    <body>
-      <header class="site-header">
-        <img class="banner" src="assets/banner.png" alt="Pix-Kit banner" />
-        <p class="intro">A family of focused Android tools for learning, data work, and mobile app development.</p>
-      </header>
+  <main class="wrap">
+    <section class="apps" aria-label="Pix-Kit applications">
+      <article class="app-card">
+        <div class="app-head">
+          <img class="app-icon" src="assets/icons/androsaurus.svg" alt="Androsaurus icon" />
+          <h2>Androsaurus</h2>
+        </div>
+        <p>Android development and release companion for editing GitHub projects, building signed APK/AAB artifacts, and preparing Google Play drafts.</p>
+        <div class="actions">
+          <a class="button" href="privacy/PixAndrosaurus.html">Privacy Policy</a>
+        </div>
+      </article>
 
-      <main class="wrap">
-        <section class="apps" aria-label="Pix-Kit applications">
-          <article class="app-card">
-  <div class="app-head">
-    <img class="app-icon" src="assets/icons/androsaurus.svg" alt="Androsaurus icon" />
-    <h2>Androsaurus</h2>
-  </div>
-  <p>Android development and release companion for editing GitHub projects, building signed APK/AAB artifacts, and preparing Google Play drafts.</p>
-  <div class="actions">
-    <a class="button" href="privacy/pix-androsaurus.html">Privacy Policy</a>
-  </div>
-</article>
-          <article class="app-card">
-  <div class="app-head">
-    <img class="app-icon" src="assets/icons/pix-algebra.svg" alt="Pix-Algebra icon" />
-    <h2>Pix-Algebra</h2>
-  </div>
-  <p>Android application that helps learners practise arithmetic with a scratchpad, quick mental math, and clear method tutorials.</p>
-  <div class="actions">
-    <a class="button" href="privacy/pix-algebra.html">Privacy Policy</a>
-  </div>
-</article>
-<article class="app-card">
-  <div class="app-head">
-    <img class="app-icon" src="assets/icons/pix-graph.svg" alt="Pix-Graph icon" />
-    <h2>Pix-Graph</h2>
-  </div>
-  <p>Android application that helps users digitize data from images of charts and export structured graph data.</p>
-  <div class="actions">
-    <a class="button" href="privacy/pix-graph.html">Privacy Policy</a>
-  </div>
-</article>
-<article class="app-card">
-  <div class="app-head">
-    <img class="app-icon" src="assets/icons/pix-data.svg" alt="Pix-Data icon" />
-    <h2>Pix-Data</h2>
-  </div>
-  <p>Android application that helps users create structured lab notebooks and custom data tables.</p>
-  <div class="actions">
-    <a class="button" href="privacy/pix-data.html">Privacy Policy</a>
-  </div>
-</article>
+      <article class="app-card">
+        <div class="app-head">
+          <img class="app-icon" src="assets/icons/boshosaurus.svg" alt="Boshosaurus icon" />
+          <h2>Boshosaurus</h2>
+        </div>
+        <p>Guided building-survey app for sketching rooms, placing fixtures, and capturing measurements from supported Bluetooth laser meters.</p>
+        <div class="actions">
+          <a class="button" href="privacy/boshosaurus.html">Privacy Policy</a>
+        </div>
+      </article>
 
-        </section>
-        <p class="footer">© 2026 Pix-Kit</p>
-      </main>
-    </body>
-    </html>
+      <article class="app-card">
+        <div class="app-head">
+          <img class="app-icon" src="assets/icons/pix-algebra.svg" alt="Pix-Algebra icon" />
+          <h2>Pix-Algebra</h2>
+        </div>
+        <p>Android application that helps learners practise arithmetic with a scratchpad, quick mental math, and clear method tutorials.</p>
+        <div class="actions">
+          <a class="button" href="privacy/pix-algebra.html">Privacy Policy</a>
+        </div>
+      </article>
+
+      <article class="app-card">
+        <div class="app-head">
+          <img class="app-icon" src="assets/icons/pix-graph.svg" alt="Pix-Graph icon" />
+          <h2>Pix-Graph</h2>
+        </div>
+        <p>Android application that helps users digitize data from images of charts and export structured graph data.</p>
+        <div class="actions">
+          <a class="button" href="privacy/pix-graph.html">Privacy Policy</a>
+        </div>
+      </article>
+
+      <article class="app-card">
+        <div class="app-head">
+          <img class="app-icon" src="assets/icons/pix-data.svg" alt="Pix-Data icon" />
+          <h2>Pix-Data</h2>
+        </div>
+        <p>Android application that helps users create structured lab notebooks and custom data tables.</p>
+        <div class="actions">
+          <a class="button" href="privacy/pix-data.html">Privacy Policy</a>
+        </div>
+      </article>
+    </section>
+    <p class="footer">© 2026 Pix-Kit</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" role="img" aria-labelledby="title description">
+  <title id="title">Boshosaurus</title>
+  <desc id="description">A turquoise floor-plan dinosaur with a measurement arrow.</desc>
+  <rect width="108" height="108" rx="24" fill="#071b3b" />
+  <path fill="#19b7ad" d="M20 30 41 19l26 4 17 14 5 16-12 6 11 11-19 12-16-8-11 17-15-10 6-16-15-11Zm16 3v16h12V30Zm19-2 13 3 8 8H58Zm-7 24h28l6 9-14 5-13-4Zm-19 3h14l6 11-10 9-10-6Z" />
+  <path d="M57 39h39m-5-5 5 5-5 5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" />
+</svg>
