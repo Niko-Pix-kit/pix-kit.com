@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Pix-Blueprint</title>
+  <desc id="description">A compact three-room architectural floor plan with doors, a window, and an orange survey dimension.</desc>
+  <rect width="512" height="512" fill="#071b34" />
+  <g fill="none" stroke="#315d8f" stroke-width="2" opacity="0.2">
+    <path d="M0 128h512M0 256h512M0 384h512M128 0v512M256 0v512M384 0v512" />
+  </g>
+
+  <g fill="#25c7e8" opacity="0.13">
+    <path d="M132 108h114v142H132z" />
+    <path d="M246 108h98q42 0 42 42v100H246z" opacity="0.75" />
+    <path d="M132 250h114v154H132z" opacity="0.75" />
+    <path d="M246 250h84v154h-84z" />
+  </g>
+
+  <!-- Crisp walls with intentional gaps for real plan-view door symbols. -->
+  <g fill="none" stroke="#f8fafc" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M132 108h212q42 0 42 42v100h-56v154H132Z" stroke-width="22" />
+    <path d="M132 250h66M238 250h92M246 108v72M246 220v184" stroke-width="12" />
+    <path d="M198 250v-40M198 210a40 40 0 0 1 40 40M246 180h40M246 180a40 40 0 0 1 40 40" stroke-width="8" />
+  </g>
+  <path d="M376 166v50" fill="none" stroke="#25c7e8" stroke-linecap="round" stroke-width="12" />
+
+  <!-- A single dimension remains legible at launcher size. -->
+  <g fill="none" stroke="#ff7a1a" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M165 361 348 164" stroke-width="12" />
+    <path d="m180 358-18 6 6-18M333 167l18-6-6 18" stroke-width="8" />
+  </g>
+  <g fill="#ff7a1a" stroke="#071b34" stroke-width="7">
+    <circle cx="165" cy="361" r="13" />
+    <circle cx="348" cy="164" r="13" />
+  </g>
+</svg>
