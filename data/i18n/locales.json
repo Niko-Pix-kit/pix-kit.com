@@ -1,0 +1,21 @@
+[
+ {"code":"en","tag":"en","name":"English","play":"en","og":"en_US"},
+ {"code":"fr","tag":"fr","name":"Français","play":"fr","og":"fr_FR"},
+ {"code":"ja","tag":"ja","name":"日本語","play":"ja","og":"ja_JP"},
+ {"code":"de","tag":"de","name":"Deutsch","play":"de","og":"de_DE"},
+ {"code":"es","tag":"es","name":"Español","play":"es","og":"es_ES"},
+ {"code":"it","tag":"it","name":"Italiano","play":"it","og":"it_IT"},
+ {"code":"pt","tag":"pt-PT","name":"Português (Portugal)","play":"pt-PT","og":"pt_PT"},
+ {"code":"pt-br","tag":"pt-BR","name":"Português (Brasil)","play":"pt-BR","og":"pt_BR"},
+ {"code":"nl","tag":"nl","name":"Nederlands","play":"nl","og":"nl_NL"},
+ {"code":"pl","tag":"pl","name":"Polski","play":"pl","og":"pl_PL"},
+ {"code":"ru","tag":"ru","name":"Русский","play":"ru","og":"ru_RU"},
+ {"code":"uk","tag":"uk","name":"Українська","play":"uk","og":"uk_UA"},
+ {"code":"zh-cn","tag":"zh-Hans","name":"简体中文","play":"zh-CN","og":"zh_CN"},
+ {"code":"zh-tw","tag":"zh-Hant","name":"繁體中文","play":"zh-TW","og":"zh_TW"},
+ {"code":"ko","tag":"ko","name":"한국어","play":"ko","og":"ko_KR"},
+ {"code":"ar","tag":"ar","name":"العربية","play":"ar","og":"ar_AR","dir":"rtl"},
+ {"code":"hi","tag":"hi","name":"हिन्दी","play":"hi","og":"hi_IN"},
+ {"code":"id","tag":"id","name":"Bahasa Indonesia","play":"id","og":"id_ID"},
+ {"code":"tr","tag":"tr","name":"Türkçe","play":"tr","og":"tr_TR"}
+]

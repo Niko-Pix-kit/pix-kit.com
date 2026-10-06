@@ -1,91 +1,125 @@
 # Pix-kit website
 
 Official static website at https://pix-kit.com, published from `main` by GitHub
-Pages. No framework, runtime dependencies, external fonts or build service are
-required. The checked-in HTML is the deployed site.
+Pages. The checked-in HTML is the deployed site. No framework, external fonts,
+server-side runtime or paid build service is required.
 
-## Pages and content
+## Pages and translations
 
-- `/`: two Android app cards, each with a swipeable screenshot carousel.
-- `/apps/pix-graph/` and `/apps/pix-moments/`: descriptive product pages, FAQs,
-  Google Play links and links to the existing privacy policies.
-- `/about/`: the brand, apps, digital content and children's books.
-- `/contact/`: email contact and a CAPTCHA-protected form.
-- `/privacy/`: existing app policies. These files are deliberately unchanged.
+- `/`: two Android app cards with swipeable screenshot carousels.
+- `/apps/pix-graph/` and `/apps/pix-moments/`: product stories, FAQs, Google Play
+  links and links to the original privacy policies.
+- `/about/`: the brand, digital tools and children's books.
+- `/contact/`: a direct email link to `niko@pix-kit.com`, the address verified in
+  the existing app policies and Google Play. No form, CAPTCHA or email service.
+- `/contact/thanks/`: retained as a noindex email-contact page for old links.
+- `/privacy/`: the six original policies, with unchanged files, URLs and styles.
 
-Edit shared product copy in `data/apps.json` and the page templates in
-`tools/build_site.py`. Rebuild the marketing pages using Python 3:
+English is at the root. Eighteen translated editions are under `/fr/`, `/ja/`,
+`/de/`, `/es/`, `/it/`, `/pt/`, `/pt-br/`, `/nl/`, `/pl/`, `/ru/`, `/uk/`, `/zh-cn/`,
+`/zh-tw/`, `/ko/`, `/ar/`, `/hi/`, `/id/` and `/tr/`. This covers the union of app
+locales: Pix-Moments has all 19; PixGraph currently supplies English resources.
+Arabic pages use right-to-left layout. Every edition has translated visible
+copy, accessibility labels, metadata and structured data. Screenshot artwork
+remains in English with localized captions and a short notice. The app policies
+remain in English as requested.
+
+Edit product copy in `data/apps.json`, templates in `tools/build_site.py`, and
+translations in `data/i18n/`. `en.json` maps stable string IDs to source text;
+other language files provide translations. `required.json` specifies mandatory
+IDs. `tools/localize_site.py` refuses missing translations or inconsistent
+placeholders instead of silently publishing mixed-language pages. If an English
+source sentence changes, update its catalog value and every translation.
+
+Build and check using Python 3 and Node (no installed packages required):
 
 ```sh
 python3 tools/build_site.py
+python3 tools/check_site.py
+node tools/test_language.cjs
 ```
 
-The generator never writes to `privacy/` or changes `CNAME`. It also generates
-the sitemap, robots file, canonical URLs, social metadata and structured data.
-Policies retain their original URLs and styles.
+The generator writes 133 HTML pages (seven routes in 19 languages), the sitemap
+and robots file. It never writes to `privacy/` or changes `CNAME`. The 95 indexable
+marketing URLs have self-canonical links and reciprocal hreflang alternatives,
+including x-default. The sitemap also retains the six policy URLs.
+
+## Language selection and privacy
+
+The language menu always links to the same page in each language. It works
+without JavaScript. Choosing English explicitly uses `?lang=en` so automatic
+selection cannot immediately redirect the visitor elsewhere. Normal internal
+links preserve the current edition.
+
+On unprefixed English pages, `assets/js/language.js` respects a manual choice
+first. Otherwise it looks up the visitor's IP country with `https://api.country.is/`
+and maps it to a supported language. For multilingual countries, compatible
+browser preferences help select the language. Unsupported countries or a failed
+lookup use the browser language, then English. There is a 2.2-second timeout.
+Direct localized URLs are respected, including visits from search results.
+Crawlers and 404 pages are not redirected. A pending lookup cannot interrupt a
+visitor who has started interacting or chosen a language.
+
+The country request omits credentials and referrer information. The provider
+necessarily receives the visitor's IP address to determine its country; Pix-kit
+only uses the country field and does not store the IP. A link to the provider
+appears in the language menu. No GPS location or precise location is requested.
+The service and its stated privacy approach are documented at https://country.is/.
+
+Only functional language preferences are stored:
+
+- `localStorage` key `pixkit.language.v1`: manually chosen locale, until the
+  visitor chooses automatic detection or clears browser storage.
+- `sessionStorage` key `pixkit.auto-language.v1`: detected locale and timestamp,
+  reused for at most one hour and limited to the browser session.
+
+Neither key contains an identifier or IP address. Blocked storage is handled
+without breaking navigation. The automatic-detection button clears both choices
+and performs a fresh lookup.
+
+There is no analytics, ad tracking, embedded video, third-party font, form
+service, CAPTCHA or cookie-writing code. Google Play and the YouTube trailer
+open externally in a new tab with `noopener noreferrer`. Media are served
+locally. A consent banner is therefore not added for this configuration; CNIL
+lists expected interface-language preferences among consent-exempt functions:
+https://www.cnil.fr/fr/cookies-et-autres-traceurs/que-dit-la-loi . Reassess this if
+tracking or third-party embeds are introduced later.
 
 ## Optional blue P / orange K experiment
 
-`assets/css/letter-colors.css` contains only the experimental letter colors:
-P/p use the logo blue `#0084ce`; K/k use the logo orange `#ff6600`. The small
-script `assets/js/letter-colors.js` enhances marked large headings. Body text,
-form fields, addresses and legal pages retain their original readable text.
+`assets/css/letter-colors.css` contains the experimental letter colors: P/p use
+logo blue `#0084ce`; K/k use logo orange `#ff6600`. The small
+`assets/js/letter-colors.js` enhances marked headings without changing their text.
 
-- Preview any marketing page without the enhancement by adding `?letters=off`.
-- To remove the experiment everywhere, clear the two color rules in
-  `assets/css/letter-colors.css`. No HTML or other styles need to change.
+- Add `?letters=off` to preview a page without the enhancement. This option is
+  preserved when switching languages.
+- To disable the colors everywhere, clear the two rules in that stylesheet.
 - To remove the enhancement entirely, remove its CSS and JS references from
-  `tools/build_site.py` and regenerate the pages.
+  `tools/build_site.py` and regenerate.
 
-The original unwrapped text is present in the HTML for search engines and
-visitors with JavaScript disabled. No controls or text are replaced with images.
+## Media, performance and SEO
 
-## Contact setup — one confirmation required
-
-The verified address in both existing app policies and Google Play is
-`niko@pix-kit.com`. This address is used consistently; `info@pix-kit.com` was
-not assumed to exist.
-
-GitHub Pages has no email backend. The form uses a standard HTTPS POST to
-FormSubmit with its reCAPTCHA enabled (`_captcha=true`) plus a honeypot. The
-visitor completes the provider's real CAPTCHA on the next step; the site does
-not simulate a robot checkbox or claim to send emails itself. No provider code
-is loaded until submission. Direct email is always available alongside the form.
-
-**Before relying on the form:** submit it once from the live `/contact/` page,
-then open the activation email sent by FormSubmit to `niko@pix-kit.com` and
-confirm the address. First-use activation is required by FormSubmit. No real
-message or activation request was sent during automated verification, and
-delivery has not been verified. After activation, send a test and check receipt.
-
-Official setup documentation: https://formsubmit.co/ and
-https://formsubmit.co/documentation . A different address can be set in the
-generator's `EMAIL` constant; it will need its own activation. The form's
-redirect is `https://pix-kit.com/contact/thanks/`.
-
-## Media and performance
-
-App copy was checked against the public English Google Play listings. Original
-marketing assets came from the corresponding app repositories:
+App copy was checked against the public Google Play listings. Original assets
+came from the apps' GitHub repositories:
 
 - PixGraph: `store-assets/feature-graphic`, `store-assets/screenshots/phone`
   (all seven screenshots) and `store-assets/logo`.
 - Pix-Moments: `store-assets/feature-graphic` and
   `store-assets/en-US/phone-screenshots` (all eight screenshots).
-- PixGraph's official trailer, verified on its Google Play listing:
-  https://www.youtube.com/watch?v=yZPJzSS56U0 . It loads through YouTube's
-  privacy-enhanced embed only after an explicit play click. No trailer is shown
-  for Pix-Moments because none was present on that listing.
-- The Google Play badge is Google's official English badge asset.
+- PixGraph trailer: https://www.youtube.com/watch?v=yZPJzSS56U0 . The site links
+  to it without loading a YouTube player. No trailer was listed for Pix-Moments.
 
-WebP copies have smaller responsive variants, descriptive alt text, dimensions
-and lazy loading. Original site PNG assets remain unchanged. Carousels support
-native touch swipes and horizontal scrolling without JavaScript, with arrow
-buttons, keyboard navigation and image enlargement added by the small script.
-They do not auto-advance and respect reduced-motion preferences.
+The 19 localized Google Play badges are original SVG assets downloaded from
+Google’s Partner Marketing Hub. Their source filenames and checksums are in
+`data/badges.json`; the artwork is unmodified and served locally.
 
-The site contains static indexable content, unique titles and descriptions,
-canonical URLs, social previews, Organization/WebSite/SoftwareApplication
-structured data, breadcrumbs, a sitemap and a custom 404. There are no invented
-ratings or download counts. Search ranking and indexing remain up to the search
-engine; the site does not promise either.
+WebP media have responsive variants, translated alternative text, dimensions
+and lazy loading. Original branding PNGs remain unchanged. Carousels support
+native swiping without JavaScript, with buttons, keyboard navigation and image
+enlargement added by a small script. They do not auto-advance and respect
+reduced-motion preferences.
+
+Pages include unique titles and descriptions, social previews, Organization,
+WebSite and SoftwareApplication structured data, breadcrumbs and a custom 404.
+There are no invented ratings or download counts. Indexing and ranking remain
+up to search engines.

@@ -8,3 +8,6 @@
 .externalNativeBuild/
 .cxx/
 *.iml
+
+__pycache__/
+*.py[cod]

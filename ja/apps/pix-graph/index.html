@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja" dir="ltr" data-locale="ja" data-route="/apps/pix-graph/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PixGraph — Androidでグラフの数値化・回帰分析 | Pix-kit</title>
+  <meta name="description" content="PixGraphでグラフ画像を数値化。軸を校正し、130種類以上の回帰モデルを比較してCSVに出力できるAndroidアプリです。">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://pix-kit.com/ja/apps/pix-graph/">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pix-kit">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="PixGraph — Androidでグラフの数値化・回帰分析 | Pix-kit">
+  <meta property="og:description" content="PixGraphでグラフ画像を数値化。軸を校正し、130種類以上の回帰モデルを比較してCSVに出力できるAndroidアプリです。">
+  <meta property="og:url" content="https://pix-kit.com/ja/apps/pix-graph/">
+  <meta property="og:image" content="https://pix-kit.com/assets/apps/pix-graph/feature-graphic.webp">
+  <meta property="og:image:alt" content="PixGraph — Androidでグラフの数値化・回帰分析 | Pix-kit">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PixGraph — Androidでグラフの数値化・回帰分析 | Pix-kit">
+  <meta name="twitter:description" content="PixGraphでグラフ画像を数値化。軸を校正し、130種類以上の回帰モデルを比較してCSVに出力できるAndroidアプリです。">
+  <meta name="twitter:image" content="https://pix-kit.com/assets/apps/pix-graph/feature-graphic.webp">
+  <link rel="icon" type="image/png" href="/assets/pix-kit-logo-symbol.png">
+  <link rel="apple-touch-icon" href="/assets/pix-kit-logo-symbol.png">
+  <link rel="stylesheet" href="/assets/css/site.css?v=20261007-i18n">
+  <!-- Optional P/K color experiment: remove the following stylesheet to disable. -->
+  <link rel="stylesheet" href="/assets/css/letter-colors.css?v=20261007-i18n">
+  <script src="/assets/js/site.js?v=20261007-i18n" defer></script>
+  <script src="/assets/js/letter-colors.js?v=20261007-i18n" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://pix-kit.com/#organization", "name": "Pix-kit", "url": "https://pix-kit.com/ja/", "logo": "https://pix-kit.com/assets/pix-kit-logo-symbol.png", "email": "niko@pix-kit.com"}, {"@type": "WebSite", "@id": "https://pix-kit.com/#website", "name": "Pix-kit", "url": "https://pix-kit.com/ja/", "inLanguage": "ja", "publisher": {"@id": "https://pix-kit.com/#organization"}}, {"@type": "SoftwareApplication", "@id": "https://pix-kit.com/ja/apps/pix-graph/#app", "name": "PixGraph", "url": "https://pix-kit.com/ja/apps/pix-graph/", "description": "PixGraphでグラフ画像を数値化。軸を校正し、130種類以上の回帰モデルを比較してCSVに出力できるAndroidアプリです。", "applicationCategory": "EducationalApplication", "operatingSystem": "Android", "downloadUrl": "https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&hl=ja", "image": "https://pix-kit.com/assets/apps/pix-graph/feature-graphic.webp", "screenshot": ["https://pix-kit.com/assets/apps/pix-graph/screen-01.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-02.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-03.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-04.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-05.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-06.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-07.webp"], "publisher": {"@id": "https://pix-kit.com/#organization"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "url": "https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&hl=ja", "description": "無料ダウンロード・任意のアプリ内購入あり。"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "私たちのアプリ", "item": "https://pix-kit.com/ja/"}, {"@type": "ListItem", "position": 2, "name": "PixGraph", "item": "https://pix-kit.com/ja/apps/pix-graph/"}]}]}</script>
+<link rel="alternate" hreflang="en" href="https://pix-kit.com/apps/pix-graph/">
+<link rel="alternate" hreflang="fr" href="https://pix-kit.com/fr/apps/pix-graph/">
+<link rel="alternate" hreflang="ja" href="https://pix-kit.com/ja/apps/pix-graph/">
+<link rel="alternate" hreflang="de" href="https://pix-kit.com/de/apps/pix-graph/">
+<link rel="alternate" hreflang="es" href="https://pix-kit.com/es/apps/pix-graph/">
+<link rel="alternate" hreflang="it" href="https://pix-kit.com/it/apps/pix-graph/">
+<link rel="alternate" hreflang="pt-PT" href="https://pix-kit.com/pt/apps/pix-graph/">
+<link rel="alternate" hreflang="pt-BR" href="https://pix-kit.com/pt-br/apps/pix-graph/">
+<link rel="alternate" hreflang="nl" href="https://pix-kit.com/nl/apps/pix-graph/">
+<link rel="alternate" hreflang="pl" href="https://pix-kit.com/pl/apps/pix-graph/">
+<link rel="alternate" hreflang="ru" href="https://pix-kit.com/ru/apps/pix-graph/">
+<link rel="alternate" hreflang="uk" href="https://pix-kit.com/uk/apps/pix-graph/">
+<link rel="alternate" hreflang="zh-Hans" href="https://pix-kit.com/zh-cn/apps/pix-graph/">
+<link rel="alternate" hreflang="zh-Hant" href="https://pix-kit.com/zh-tw/apps/pix-graph/">
+<link rel="alternate" hreflang="ko" href="https://pix-kit.com/ko/apps/pix-graph/">
+<link rel="alternate" hreflang="ar" href="https://pix-kit.com/ar/apps/pix-graph/">
+<link rel="alternate" hreflang="hi" href="https://pix-kit.com/hi/apps/pix-graph/">
+<link rel="alternate" hreflang="id" href="https://pix-kit.com/id/apps/pix-graph/">
+<link rel="alternate" hreflang="tr" href="https://pix-kit.com/tr/apps/pix-graph/">
+<link rel="alternate" hreflang="x-default" href="https://pix-kit.com/apps/pix-graph/">
+<script type="application/json" id="locale-config">{"locales": [{"code": "en", "tag": "en"}, {"code": "fr", "tag": "fr"}, {"code": "ja", "tag": "ja"}, {"code": "de", "tag": "de"}, {"code": "es", "tag": "es"}, {"code": "it", "tag": "it"}, {"code": "pt", "tag": "pt-PT"}, {"code": "pt-br", "tag": "pt-BR"}, {"code": "nl", "tag": "nl"}, {"code": "pl", "tag": "pl"}, {"code": "ru", "tag": "ru"}, {"code": "uk", "tag": "uk"}, {"code": "zh-cn", "tag": "zh-Hans"}, {"code": "zh-tw", "tag": "zh-Hant"}, {"code": "ko", "tag": "ko"}, {"code": "ar", "tag": "ar"}, {"code": "hi", "tag": "hi"}, {"code": "id", "tag": "id"}, {"code": "tr", "tag": "tr"}]}</script>
+<script src="/assets/js/language.js?v=20261007" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-nav"><div class="wrap nav-inner">
+    <a class="brand" href="/ja/" aria-label="Pix-kitのホーム"><img src="/assets/brand/symbol.webp" width="96" height="96" alt=""><span data-brand-letters>Pix-kit</span></a>
+    <nav class="nav-links" aria-label="メインナビゲーション"><a href="/ja/" aria-current="page">アプリ</a><a href="/ja/about/">私たちについて</a><a href="/ja/contact/">お問い合わせ</a></nav>
+  </div></header><div class="language-bar"><div class="wrap language-inner"><span class="language-label">言語</span><details class="language-picker"><summary aria-label="言語を選択"><span aria-hidden="true">◎</span> 日本語</summary><div class="language-panel"><div class="language-options"><a href="/apps/pix-graph/?lang=en" data-locale-choice="en" lang="en" dir="auto" hreflang="en">English</a><a href="/fr/apps/pix-graph/" data-locale-choice="fr" lang="fr" dir="auto" hreflang="fr">Français</a><a href="/ja/apps/pix-graph/" data-locale-choice="ja" lang="ja" dir="auto" hreflang="ja" aria-current="true">日本語</a><a href="/de/apps/pix-graph/" data-locale-choice="de" lang="de" dir="auto" hreflang="de">Deutsch</a><a href="/es/apps/pix-graph/" data-locale-choice="es" lang="es" dir="auto" hreflang="es">Español</a><a href="/it/apps/pix-graph/" data-locale-choice="it" lang="it" dir="auto" hreflang="it">Italiano</a><a href="/pt/apps/pix-graph/" data-locale-choice="pt" lang="pt-PT" dir="auto" hreflang="pt-PT">Português (Portugal)</a><a href="/pt-br/apps/pix-graph/" data-locale-choice="pt-br" lang="pt-BR" dir="auto" hreflang="pt-BR">Português (Brasil)</a><a href="/nl/apps/pix-graph/" data-locale-choice="nl" lang="nl" dir="auto" hreflang="nl">Nederlands</a><a href="/pl/apps/pix-graph/" data-locale-choice="pl" lang="pl" dir="auto" hreflang="pl">Polski</a><a href="/ru/apps/pix-graph/" data-locale-choice="ru" lang="ru" dir="auto" hreflang="ru">Русский</a><a href="/uk/apps/pix-graph/" data-locale-choice="uk" lang="uk" dir="auto" hreflang="uk">Українська</a><a href="/zh-cn/apps/pix-graph/" data-locale-choice="zh-cn" lang="zh-Hans" dir="auto" hreflang="zh-Hans">简体中文</a><a href="/zh-tw/apps/pix-graph/" data-locale-choice="zh-tw" lang="zh-Hant" dir="auto" hreflang="zh-Hant">繁體中文</a><a href="/ko/apps/pix-graph/" data-locale-choice="ko" lang="ko" dir="auto" hreflang="ko">한국어</a><a href="/ar/apps/pix-graph/" data-locale-choice="ar" lang="ar" dir="auto" hreflang="ar">العربية</a><a href="/hi/apps/pix-graph/" data-locale-choice="hi" lang="hi" dir="auto" hreflang="hi">हिन्दी</a><a href="/id/apps/pix-graph/" data-locale-choice="id" lang="id" dir="auto" hreflang="id">Bahasa Indonesia</a><a href="/tr/apps/pix-graph/" data-locale-choice="tr" lang="tr" dir="auto" hreflang="tr">Türkçe</a></div><button type="button" data-language-auto hidden>自動検出を使う</button><p>IPアドレスの国に合わせて選択し、検出できない場合はブラウザの言語を使用します。 <a href="https://country.is/" target="_blank" rel="noopener noreferrer">country.is</a></p></div></details><span class="language-mode" data-language-mode hidden>自動（国 / ブラウザ）</span></div></div>
+  <main id="main" class="wrap"><nav class="breadcrumb" aria-label="現在の位置"><a href="/ja/">私たちのアプリ</a> <span aria-hidden="true">/</span> <span aria-current="page">PixGraph</span></nav>
+      <section class="detail-hero"><div><img class="app-icon" src="/assets/apps/pix-graph/icon.webp" width="160" height="160" alt="" decoding="async"><p class="eyebrow">データと発見 · Android</p><h1 data-brand-letters>PixGraph</h1><h2 data-brand-letters>画像から、使えるデータへ。</h2><p class="summary">グラフの中の数値をもう一度活用。画像・写真・CSVからデータを取り出し、数学モデルを試して、さまざまな作業に役立てられます。</p><ul class="tags" aria-label="主な特徴"><li>グラフの数値化</li><li>130種類以上のモデル</li><li>CSV出力</li></ul><div class="actions"><a class="play-link" href="https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&amp;hl=ja" target="_blank" rel="noopener noreferrer" aria-label="Google PlayでPixGraphを入手（新しいタブで開きます）">
+      <img src="/assets/badges/ja.svg" alt="Google Playで手に入れよう" width="180" height="53" loading="lazy" decoding="async"></a><a class="policy-link" href="/privacy/pix-graph.html">プライバシーポリシー</a></div></div><section class="gallery" data-gallery aria-roledescription="カルーセル" aria-label="PixGraph — 画面とメディア">
+      <div class="gallery-track" tabindex="0" role="group" aria-label="スワイプまたは左右の矢印キーで画像を表示"><figure class="slide" role="group" aria-roledescription="スライド" aria-label="1 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/feature-graphic.webp" aria-label="拡大：グラフをデータに変える">
+            <img src="/assets/apps/pix-graph/feature-graphic-small.webp" srcset="/assets/apps/pix-graph/feature-graphic-small.webp 540w, /assets/apps/pix-graph/feature-graphic.webp 1024w" sizes="(max-width: 540px) 280px, (max-width: 860px) 600px, 480px" width="1024" height="500" alt="PixGraph — グラフをデータに変える" loading="eager" decoding="async"></a></div>
+          <figcaption>グラフをデータに変える</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="2 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-01.webp" aria-label="拡大：保存したグラフプロジェクト">
+            <img src="/assets/apps/pix-graph/screen-01-small.webp" srcset="/assets/apps/pix-graph/screen-01-small.webp 428w, /assets/apps/pix-graph/screen-01.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 保存したグラフプロジェクト" loading="lazy" decoding="async"></a></div>
+          <figcaption>保存したグラフプロジェクト</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="3 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-02.webp" aria-label="拡大：曲線のデータを読み取る">
+            <img src="/assets/apps/pix-graph/screen-02-small.webp" srcset="/assets/apps/pix-graph/screen-02-small.webp 428w, /assets/apps/pix-graph/screen-02.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 曲線のデータを読み取る" loading="lazy" decoding="async"></a></div>
+          <figcaption>曲線のデータを読み取る</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="4 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-03.webp" aria-label="拡大：円グラフを読み取る">
+            <img src="/assets/apps/pix-graph/screen-03-small.webp" srcset="/assets/apps/pix-graph/screen-03-small.webp 428w, /assets/apps/pix-graph/screen-03.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 円グラフを読み取る" loading="lazy" decoding="async"></a></div>
+          <figcaption>円グラフを読み取る</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="5 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-04.webp" aria-label="拡大：ヒストグラムを調べる">
+            <img src="/assets/apps/pix-graph/screen-04-small.webp" srcset="/assets/apps/pix-graph/screen-04-small.webp 428w, /assets/apps/pix-graph/screen-04.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — ヒストグラムを調べる" loading="lazy" decoding="async"></a></div>
+          <figcaption>ヒストグラムを調べる</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="6 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-05.webp" aria-label="拡大：データに合うモデルを探す">
+            <img src="/assets/apps/pix-graph/screen-05-small.webp" srcset="/assets/apps/pix-graph/screen-05-small.webp 428w, /assets/apps/pix-graph/screen-05.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — データに合うモデルを探す" loading="lazy" decoding="async"></a></div>
+          <figcaption>データに合うモデルを探す</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="7 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-06.webp" aria-label="拡大：結果を比較する">
+            <img src="/assets/apps/pix-graph/screen-06-small.webp" srcset="/assets/apps/pix-graph/screen-06-small.webp 428w, /assets/apps/pix-graph/screen-06.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 結果を比較する" loading="lazy" decoding="async"></a></div>
+          <figcaption>結果を比較する</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="8 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-07.webp" aria-label="拡大：フィットの詳細を確認する">
+            <img src="/assets/apps/pix-graph/screen-07-small.webp" srcset="/assets/apps/pix-graph/screen-07-small.webp 428w, /assets/apps/pix-graph/screen-07.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — フィットの詳細を確認する" loading="lazy" decoding="async"></a></div>
+          <figcaption>フィットの詳細を確認する</figcaption></figure><figure class="slide" role="group" aria-roledescription="スライド" aria-label="9 / 9">
+          <div class="slide-media"><a class="video-preview" href="https://www.youtube.com/watch?v=yZPJzSS56U0" target="_blank" rel="noopener noreferrer" aria-label="PixGraph — YouTubeで開く">
+            <img src="/assets/apps/pix-graph/feature-graphic-small.webp" width="1024" height="500" alt="" loading="lazy" decoding="async">
+            <span class="video-label"><span>▶ 紹介動画を見る</span></span></a></div>
+          <figcaption>公式紹介動画 · <a href="https://www.youtube.com/watch?v=yZPJzSS56U0" target="_blank" rel="noopener noreferrer">YouTubeで開く</a></figcaption></figure></div>
+      <div class="gallery-tools" hidden><span class="gallery-status" data-status role="status" aria-live="polite" aria-atomic="true">1 / 9</span>
+        <div class="gallery-buttons"><button class="gallery-button" type="button" data-previous aria-label="前の画像">←</button><button class="gallery-button" type="button" data-next aria-label="次の画像">→</button></div></div>
+      <p class="media-language-note">スクリーンショットは英語版です</p><p class="gallery-hint">スワイプして表示 · 画像をタップすると拡大</p></section></section>
+      <p class="audience">学生、先生、研究者、エンジニア、そしてグラフの中身をもっと知りたいすべての方へ。</p><div class="story-grid"><section class="story"><p class="eyebrow">手元の資料から始める</p><h2 data-brand-letters>そのグラフには、まだ情報がある。</h2><p>論文のグラフ、授業で撮った写真、実験のCSVをPixGraphに取り込んで、使える数値に。散布図、ヒストグラム、円グラフを、パソコンに移らず扱えます。</p></section><section class="story"><p class="eyebrow">ひとつの点も大切に</p><h2 data-brand-letters>校正。拡大。調整。</h2><p>線形・対数軸を設定し、拡大しながら抽出した点を調整。元に戻す・やり直す操作にも対応します。CSVでは列をX、Y、ラベル、値に割り当てられます。</p></section><section class="story"><p class="eyebrow">画像の先へ</p><h2 data-brand-letters>データの形を見つけよう。</h2><p>線形・多項式回帰から成長・減衰、周期関数、科学分野の分布まで、130種類以上のモデルを収録。R²、RMSE、AICcで結果を比較し、式やパラメータを確認して、フィット曲線をグラフに重ねられます。</p></section><section class="story"><p class="eyebrow">次の作業へ</p><h2 data-brand-letters>作業を残し、数値を活用。</h2><p>プロジェクトと試したモデルは自動保存され、続きから再開できます。データをCSVに書き出して表計算や分析へ。処理は端末内で行われ、Google Driveとの同期は任意です。</p></section></div>
+      <section class="faq"><h2 data-brand-letters>よくある質問</h2><details><summary>グラフの写真からデータを取り出せますか？</summary><p>はい。画像を取り込むか写真を撮り、軸を校正して点を抽出できます。散布図、ヒストグラム、円グラフに対応しています。</p></details><details><summary>表計算ソフトに出力できますか？</summary><p>はい。一般的な表計算ソフトや分析ツールで使えるCSV形式で出力できます。</p></details><details><summary>Google Driveは必須ですか？</summary><p>いいえ。PixGraphは端末上で動作します。Google Drive同期は、ご自身で有効にした場合のみ使用します。</p></details></section>
+      <section class="download-panel"><h2 data-brand-letters>PixGraphを使ってみよう。</h2><p>Google Playで配信中。任意のアプリ内購入があります。最新の価格と提供状況はストアをご確認ください。</p><div class="actions"><a class="play-link" href="https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&amp;hl=ja" target="_blank" rel="noopener noreferrer" aria-label="Google PlayでPixGraphを入手（新しいタブで開きます）">
+      <img src="/assets/badges/ja.svg" alt="Google Playで手に入れよう" width="180" height="53" loading="lazy" decoding="async"></a><a class="text-link" href="/ja/contact/?app=pix-graph">ご質問はお問い合わせへ <span aria-hidden="true">→</span></a></div><a class="policy-link" href="/privacy/pix-graph.html">プライバシーポリシー</a></section></main>
+  <footer class="footer"><div class="wrap"><div class="footer-inner"><p>© 2026 Pix-kit · 作る。学ぶ。遊ぶ。</p>
+    <nav class="footer-links" aria-label="フッター"><a href="/ja/about/">私たちについて</a><a href="/ja/contact/">お問い合わせ</a><a href="/privacy/pix-graph.html">PixGraph — プライバシーポリシー</a><a href="/privacy/pix-moments.html">Pix-Moments — プライバシーポリシー</a></nav></div>
+    <p class="policy-language-note">プライバシーポリシーは英語でご案内しています。</p><p class="legal-note">Google PlayおよびGoogle PlayのロゴはGoogle LLCの商標です。</p></div></footer>
+  <dialog class="lightbox" id="image-viewer" aria-label="拡大したスクリーンショット"><div class="lightbox-head"><p data-viewer-caption></p><button class="gallery-button" type="button" data-close aria-label="拡大画像を閉じる">×</button></div><img alt=""></dialog>
+</body>
+</html>

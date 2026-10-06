@@ -1,11 +1,6 @@
 'use strict';
 
 (() => {
-  const selectedApp = { 'pix-graph': 'PixGraph', 'pix-moments': 'Pix-Moments' }[
-    new URLSearchParams(location.search).get('app')
-  ];
-  const appField = document.querySelector('#contact-app');
-  if (appField && selectedApp) appField.value = selectedApp;
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const galleries = document.querySelectorAll('[data-gallery]');
 
@@ -23,14 +18,6 @@
       frame = 0;
       const index = Math.max(0, Math.min(slides.length - 1,
         Math.round(track.scrollLeft / Math.max(1, track.clientWidth))));
-      if (index !== current) {
-        // Stop an embedded trailer when the visitor leaves that slide.
-        slides[current].querySelectorAll('iframe').forEach((iframe) => {
-          const button = iframe.parentElement.querySelector('[data-video]');
-          iframe.remove();
-          if (button) button.hidden = false;
-        });
-      }
       current = index;
       previous.disabled = current === 0;
       next.disabled = current === slides.length - 1;
@@ -64,23 +51,6 @@
     }
     tools.hidden = false;
     update();
-  });
-
-  // YouTube is contacted only when a visitor chooses to play the trailer.
-  document.querySelectorAll('[data-video]').forEach((button) => {
-    button.addEventListener('click', () => {
-      const id = button.dataset.video;
-      if (!/^[a-zA-Z0-9_-]{11}$/.test(id)) return;
-      const iframe = document.createElement('iframe');
-      iframe.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0`;
-      iframe.title = 'PixGraph official trailer';
-      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
-      iframe.allowFullscreen = true;
-      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-      button.hidden = true;
-      button.parentElement.append(iframe);
-      iframe.focus();
-    });
   });
 
   const dialog = document.querySelector('#image-viewer');

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-Hant" dir="ltr" data-locale="zh-tw" data-route="/apps/pix-graph/">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PixGraph — Android 圖表資料擷取與迴歸分析 | Pix-kit</title>
+  <meta name="description" content="使用 Android 版 PixGraph 擷取圖表資料。從圖片取得資料、校準座標軸、擬合 130 多種迴歸模型，並匯出 CSV 檔案。">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://pix-kit.com/zh-tw/apps/pix-graph/">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Pix-kit">
+  <meta property="og:locale" content="zh_TW">
+  <meta property="og:title" content="PixGraph — Android 圖表資料擷取與迴歸分析 | Pix-kit">
+  <meta property="og:description" content="使用 Android 版 PixGraph 擷取圖表資料。從圖片取得資料、校準座標軸、擬合 130 多種迴歸模型，並匯出 CSV 檔案。">
+  <meta property="og:url" content="https://pix-kit.com/zh-tw/apps/pix-graph/">
+  <meta property="og:image" content="https://pix-kit.com/assets/apps/pix-graph/feature-graphic.webp">
+  <meta property="og:image:alt" content="PixGraph — Android 圖表資料擷取與迴歸分析 | Pix-kit">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PixGraph — Android 圖表資料擷取與迴歸分析 | Pix-kit">
+  <meta name="twitter:description" content="使用 Android 版 PixGraph 擷取圖表資料。從圖片取得資料、校準座標軸、擬合 130 多種迴歸模型，並匯出 CSV 檔案。">
+  <meta name="twitter:image" content="https://pix-kit.com/assets/apps/pix-graph/feature-graphic.webp">
+  <link rel="icon" type="image/png" href="/assets/pix-kit-logo-symbol.png">
+  <link rel="apple-touch-icon" href="/assets/pix-kit-logo-symbol.png">
+  <link rel="stylesheet" href="/assets/css/site.css?v=20261007-i18n">
+  <!-- Optional P/K color experiment: remove the following stylesheet to disable. -->
+  <link rel="stylesheet" href="/assets/css/letter-colors.css?v=20261007-i18n">
+  <script src="/assets/js/site.js?v=20261007-i18n" defer></script>
+  <script src="/assets/js/letter-colors.js?v=20261007-i18n" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://pix-kit.com/#organization", "name": "Pix-kit", "url": "https://pix-kit.com/zh-tw/", "logo": "https://pix-kit.com/assets/pix-kit-logo-symbol.png", "email": "niko@pix-kit.com"}, {"@type": "WebSite", "@id": "https://pix-kit.com/#website", "name": "Pix-kit", "url": "https://pix-kit.com/zh-tw/", "inLanguage": "zh-Hant", "publisher": {"@id": "https://pix-kit.com/#organization"}}, {"@type": "SoftwareApplication", "@id": "https://pix-kit.com/zh-tw/apps/pix-graph/#app", "name": "PixGraph", "url": "https://pix-kit.com/zh-tw/apps/pix-graph/", "description": "使用 Android 版 PixGraph 擷取圖表資料。從圖片取得資料、校準座標軸、擬合 130 多種迴歸模型，並匯出 CSV 檔案。", "applicationCategory": "EducationalApplication", "operatingSystem": "Android", "downloadUrl": "https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&hl=zh-TW", "image": "https://pix-kit.com/assets/apps/pix-graph/feature-graphic.webp", "screenshot": ["https://pix-kit.com/assets/apps/pix-graph/screen-01.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-02.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-03.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-04.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-05.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-06.webp", "https://pix-kit.com/assets/apps/pix-graph/screen-07.webp"], "publisher": {"@id": "https://pix-kit.com/#organization"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "url": "https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&hl=zh-TW", "description": "免費下載，提供選用的應用程式內購。"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "我們的應用程式", "item": "https://pix-kit.com/zh-tw/"}, {"@type": "ListItem", "position": 2, "name": "PixGraph", "item": "https://pix-kit.com/zh-tw/apps/pix-graph/"}]}]}</script>
+<link rel="alternate" hreflang="en" href="https://pix-kit.com/apps/pix-graph/">
+<link rel="alternate" hreflang="fr" href="https://pix-kit.com/fr/apps/pix-graph/">
+<link rel="alternate" hreflang="ja" href="https://pix-kit.com/ja/apps/pix-graph/">
+<link rel="alternate" hreflang="de" href="https://pix-kit.com/de/apps/pix-graph/">
+<link rel="alternate" hreflang="es" href="https://pix-kit.com/es/apps/pix-graph/">
+<link rel="alternate" hreflang="it" href="https://pix-kit.com/it/apps/pix-graph/">
+<link rel="alternate" hreflang="pt-PT" href="https://pix-kit.com/pt/apps/pix-graph/">
+<link rel="alternate" hreflang="pt-BR" href="https://pix-kit.com/pt-br/apps/pix-graph/">
+<link rel="alternate" hreflang="nl" href="https://pix-kit.com/nl/apps/pix-graph/">
+<link rel="alternate" hreflang="pl" href="https://pix-kit.com/pl/apps/pix-graph/">
+<link rel="alternate" hreflang="ru" href="https://pix-kit.com/ru/apps/pix-graph/">
+<link rel="alternate" hreflang="uk" href="https://pix-kit.com/uk/apps/pix-graph/">
+<link rel="alternate" hreflang="zh-Hans" href="https://pix-kit.com/zh-cn/apps/pix-graph/">
+<link rel="alternate" hreflang="zh-Hant" href="https://pix-kit.com/zh-tw/apps/pix-graph/">
+<link rel="alternate" hreflang="ko" href="https://pix-kit.com/ko/apps/pix-graph/">
+<link rel="alternate" hreflang="ar" href="https://pix-kit.com/ar/apps/pix-graph/">
+<link rel="alternate" hreflang="hi" href="https://pix-kit.com/hi/apps/pix-graph/">
+<link rel="alternate" hreflang="id" href="https://pix-kit.com/id/apps/pix-graph/">
+<link rel="alternate" hreflang="tr" href="https://pix-kit.com/tr/apps/pix-graph/">
+<link rel="alternate" hreflang="x-default" href="https://pix-kit.com/apps/pix-graph/">
+<script type="application/json" id="locale-config">{"locales": [{"code": "en", "tag": "en"}, {"code": "fr", "tag": "fr"}, {"code": "ja", "tag": "ja"}, {"code": "de", "tag": "de"}, {"code": "es", "tag": "es"}, {"code": "it", "tag": "it"}, {"code": "pt", "tag": "pt-PT"}, {"code": "pt-br", "tag": "pt-BR"}, {"code": "nl", "tag": "nl"}, {"code": "pl", "tag": "pl"}, {"code": "ru", "tag": "ru"}, {"code": "uk", "tag": "uk"}, {"code": "zh-cn", "tag": "zh-Hans"}, {"code": "zh-tw", "tag": "zh-Hant"}, {"code": "ko", "tag": "ko"}, {"code": "ar", "tag": "ar"}, {"code": "hi", "tag": "hi"}, {"code": "id", "tag": "id"}, {"code": "tr", "tag": "tr"}]}</script>
+<script src="/assets/js/language.js?v=20261007" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-nav"><div class="wrap nav-inner">
+    <a class="brand" href="/zh-tw/" aria-label="Pix-kit 首頁"><img src="/assets/brand/symbol.webp" width="96" height="96" alt=""><span data-brand-letters>Pix-kit</span></a>
+    <nav class="nav-links" aria-label="主要導覽"><a href="/zh-tw/" aria-current="page">應用程式</a><a href="/zh-tw/about/">關於我們</a><a href="/zh-tw/contact/">聯絡我們</a></nav>
+  </div></header><div class="language-bar"><div class="wrap language-inner"><span class="language-label">語言</span><details class="language-picker"><summary aria-label="選擇語言"><span aria-hidden="true">◎</span> 繁體中文</summary><div class="language-panel"><div class="language-options"><a href="/apps/pix-graph/?lang=en" data-locale-choice="en" lang="en" dir="auto" hreflang="en">English</a><a href="/fr/apps/pix-graph/" data-locale-choice="fr" lang="fr" dir="auto" hreflang="fr">Français</a><a href="/ja/apps/pix-graph/" data-locale-choice="ja" lang="ja" dir="auto" hreflang="ja">日本語</a><a href="/de/apps/pix-graph/" data-locale-choice="de" lang="de" dir="auto" hreflang="de">Deutsch</a><a href="/es/apps/pix-graph/" data-locale-choice="es" lang="es" dir="auto" hreflang="es">Español</a><a href="/it/apps/pix-graph/" data-locale-choice="it" lang="it" dir="auto" hreflang="it">Italiano</a><a href="/pt/apps/pix-graph/" data-locale-choice="pt" lang="pt-PT" dir="auto" hreflang="pt-PT">Português (Portugal)</a><a href="/pt-br/apps/pix-graph/" data-locale-choice="pt-br" lang="pt-BR" dir="auto" hreflang="pt-BR">Português (Brasil)</a><a href="/nl/apps/pix-graph/" data-locale-choice="nl" lang="nl" dir="auto" hreflang="nl">Nederlands</a><a href="/pl/apps/pix-graph/" data-locale-choice="pl" lang="pl" dir="auto" hreflang="pl">Polski</a><a href="/ru/apps/pix-graph/" data-locale-choice="ru" lang="ru" dir="auto" hreflang="ru">Русский</a><a href="/uk/apps/pix-graph/" data-locale-choice="uk" lang="uk" dir="auto" hreflang="uk">Українська</a><a href="/zh-cn/apps/pix-graph/" data-locale-choice="zh-cn" lang="zh-Hans" dir="auto" hreflang="zh-Hans">简体中文</a><a href="/zh-tw/apps/pix-graph/" data-locale-choice="zh-tw" lang="zh-Hant" dir="auto" hreflang="zh-Hant" aria-current="true">繁體中文</a><a href="/ko/apps/pix-graph/" data-locale-choice="ko" lang="ko" dir="auto" hreflang="ko">한국어</a><a href="/ar/apps/pix-graph/" data-locale-choice="ar" lang="ar" dir="auto" hreflang="ar">العربية</a><a href="/hi/apps/pix-graph/" data-locale-choice="hi" lang="hi" dir="auto" hreflang="hi">हिन्दी</a><a href="/id/apps/pix-graph/" data-locale-choice="id" lang="id" dir="auto" hreflang="id">Bahasa Indonesia</a><a href="/tr/apps/pix-graph/" data-locale-choice="tr" lang="tr" dir="auto" hreflang="tr">Türkçe</a></div><button type="button" data-language-auto hidden>使用自動偵測</button><p>自動選擇依 IP 所在國家判斷，無法判斷時使用瀏覽器語言。 <a href="https://country.is/" target="_blank" rel="noopener noreferrer">country.is</a></p></div></details><span class="language-mode" data-language-mode hidden>自動（國家／瀏覽器）</span></div></div>
+  <main id="main" class="wrap"><nav class="breadcrumb" aria-label="階層導覽"><a href="/zh-tw/">我們的應用程式</a> <span aria-hidden="true">/</span> <span aria-current="page">PixGraph</span></nav>
+      <section class="detail-hero"><div><img class="app-icon" src="/assets/apps/pix-graph/icon.webp" width="160" height="160" alt="" decoding="async"><p class="eyebrow">資料與探索 · Android</p><h1 data-brand-letters>PixGraph</h1><h2 data-brand-letters>從一張圖片，到可用的資料。</h2><p class="summary">讓圖表中的數字重獲新生。從圖片、照片或 CSV 擷取圖表資料，探索數學模型，並將資料帶入你的工作流程。</p><ul class="tags" aria-label="特色"><li>圖表資料擷取</li><li>130 多種模型</li><li>CSV 匯出</li></ul><div class="actions"><a class="play-link" href="https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&amp;hl=zh-TW" target="_blank" rel="noopener noreferrer" aria-label="在 Google Play 取得 PixGraph（在新分頁中開啟）">
+      <img src="/assets/badges/zh-tw.svg" alt="在 Google Play 取得" width="239" height="71" loading="lazy" decoding="async"></a><a class="policy-link" href="/privacy/pix-graph.html">隱私權政策</a></div></div><section class="gallery" data-gallery aria-roledescription="輪播" aria-label="PixGraph — 螢幕截圖與媒體">
+      <div class="gallery-track" tabindex="0" role="group" aria-label="滑動或使用方向鍵瀏覽圖片"><figure class="slide" role="group" aria-roledescription="投影片" aria-label="1 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/feature-graphic.webp" aria-label="放大：將圖表轉為資料">
+            <img src="/assets/apps/pix-graph/feature-graphic-small.webp" srcset="/assets/apps/pix-graph/feature-graphic-small.webp 540w, /assets/apps/pix-graph/feature-graphic.webp 1024w" sizes="(max-width: 540px) 280px, (max-width: 860px) 600px, 480px" width="1024" height="500" alt="PixGraph — 將圖表轉為資料" loading="eager" decoding="async"></a></div>
+          <figcaption>將圖表轉為資料</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="2 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-01.webp" aria-label="放大：你的圖表專案">
+            <img src="/assets/apps/pix-graph/screen-01-small.webp" srcset="/assets/apps/pix-graph/screen-01-small.webp 428w, /assets/apps/pix-graph/screen-01.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 你的圖表專案" loading="lazy" decoding="async"></a></div>
+          <figcaption>你的圖表專案</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="3 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-02.webp" aria-label="放大：擷取曲線資料">
+            <img src="/assets/apps/pix-graph/screen-02-small.webp" srcset="/assets/apps/pix-graph/screen-02-small.webp 428w, /assets/apps/pix-graph/screen-02.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 擷取曲線資料" loading="lazy" decoding="async"></a></div>
+          <figcaption>擷取曲線資料</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="4 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-03.webp" aria-label="放大：讀取圓餅圖">
+            <img src="/assets/apps/pix-graph/screen-03-small.webp" srcset="/assets/apps/pix-graph/screen-03-small.webp 428w, /assets/apps/pix-graph/screen-03.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 讀取圓餅圖" loading="lazy" decoding="async"></a></div>
+          <figcaption>讀取圓餅圖</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="5 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-04.webp" aria-label="放大：探索直方圖">
+            <img src="/assets/apps/pix-graph/screen-04-small.webp" srcset="/assets/apps/pix-graph/screen-04-small.webp 428w, /assets/apps/pix-graph/screen-04.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 探索直方圖" loading="lazy" decoding="async"></a></div>
+          <figcaption>探索直方圖</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="6 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-05.webp" aria-label="放大：尋找合適的模型">
+            <img src="/assets/apps/pix-graph/screen-05-small.webp" srcset="/assets/apps/pix-graph/screen-05-small.webp 428w, /assets/apps/pix-graph/screen-05.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 尋找合適的模型" loading="lazy" decoding="async"></a></div>
+          <figcaption>尋找合適的模型</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="7 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-06.webp" aria-label="放大：比較結果">
+            <img src="/assets/apps/pix-graph/screen-06-small.webp" srcset="/assets/apps/pix-graph/screen-06-small.webp 428w, /assets/apps/pix-graph/screen-06.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 比較結果" loading="lazy" decoding="async"></a></div>
+          <figcaption>比較結果</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="8 / 9">
+          <div class="slide-media"><a class="image-open" data-image href="/assets/apps/pix-graph/screen-07.webp" aria-label="放大：查看擬合詳情">
+            <img src="/assets/apps/pix-graph/screen-07-small.webp" srcset="/assets/apps/pix-graph/screen-07-small.webp 428w, /assets/apps/pix-graph/screen-07.webp 891w" sizes="(max-width: 540px) 220px, 300px" width="891" height="2000" alt="PixGraph — 查看擬合詳情" loading="lazy" decoding="async"></a></div>
+          <figcaption>查看擬合詳情</figcaption></figure><figure class="slide" role="group" aria-roledescription="投影片" aria-label="9 / 9">
+          <div class="slide-media"><a class="video-preview" href="https://www.youtube.com/watch?v=yZPJzSS56U0" target="_blank" rel="noopener noreferrer" aria-label="PixGraph — 在 YouTube 上開啟">
+            <img src="/assets/apps/pix-graph/feature-graphic-small.webp" width="1024" height="500" alt="" loading="lazy" decoding="async">
+            <span class="video-label"><span>▶ 觀看介紹影片</span></span></a></div>
+          <figcaption>官方介紹影片 · <a href="https://www.youtube.com/watch?v=yZPJzSS56U0" target="_blank" rel="noopener noreferrer">在 YouTube 上開啟</a></figcaption></figure></div>
+      <div class="gallery-tools" hidden><span class="gallery-status" data-status role="status" aria-live="polite" aria-atomic="true">1 / 9</span>
+        <div class="gallery-buttons"><button class="gallery-button" type="button" data-previous aria-label="上一張圖片">←</button><button class="gallery-button" type="button" data-next aria-label="下一張圖片">→</button></div></div>
+      <p class="media-language-note">螢幕截圖為英文介面</p><p class="gallery-hint">滑動瀏覽 · 輕觸螢幕截圖放大</p></section></section>
+      <p class="audience">為學生、教師、科學家、工程師，以及每一位想深入了解圖表的人而設計。</p><div class="story-grid"><section class="story"><p class="eyebrow">從手邊的資料開始</p><h2 data-brand-letters>這張圖表，還有更多值得發現。</h2><p>論文中的圖表、課堂上拍的照片、實驗產生的 CSV，都能匯入 PixGraph，變成可用的資料。直接在裝置上處理散佈圖、直方圖和圓餅圖，無須切換到電腦。</p></section><section class="story"><p class="eyebrow">讓每個點都有價值</p><h2 data-brand-letters>校準、放大、細化。</h2><p>設定線性或對數座標軸，放大細節並調整擷取的資料點。透過復原與重做不斷完善結果。匯入 CSV 時，可將欄指定為 X、Y、標籤或數值。</p></section><section class="story"><p class="eyebrow">不止於圖片</p><h2 data-brand-letters>發現資料的規律。</h2><p>探索 130 多種數學模型，包括線性與多項式迴歸、成長、衰減、週期函數及科學分布。透過 R²、RMSE 和 AICc 比較擬合結果，查看公式與參數，並將擬合曲線疊加至圖表上。</p></section><section class="story"><p class="eyebrow">邁出下一步</p><h2 data-brand-letters>保留工作，運用資料。</h2><p>專案和測試過的模型會自動儲存，方便隨時繼續。將擷取的資料匯出為 CSV，用於試算表或分析。處理在裝置本機進行；Google Drive 同步為選用功能。</p></section></div>
+      <section class="faq"><h2 data-brand-letters>你可能想知道</h2><details><summary>可以從圖表照片擷取資料嗎？</summary><p>可以。匯入圖片或拍照，校準座標軸後即可擷取資料點。PixGraph 支援散佈圖、直方圖和圓餅圖。</p></details><details><summary>可以將資料匯出至試算表嗎？</summary><p>可以。將擷取的資料匯出為 CSV，此格式相容於常見的試算表和資料分析工具。</p></details><details><summary>一定要使用 Google Drive 嗎？</summary><p>不需要。PixGraph 在你的裝置上執行。Google Drive 同步為選用功能，僅在你啟用時使用。</p></details></section>
+      <section class="download-panel"><h2 data-brand-letters>試試 PixGraph。</h2><p>可在 Google Play 取得，提供選用的應用程式內購。最新價格與供應情況請查看商店頁面。</p><div class="actions"><a class="play-link" href="https://play.google.com/store/apps/details?id=com.pixkit.pixgraph&amp;hl=zh-TW" target="_blank" rel="noopener noreferrer" aria-label="在 Google Play 取得 PixGraph（在新分頁中開啟）">
+      <img src="/assets/badges/zh-tw.svg" alt="在 Google Play 取得" width="239" height="71" loading="lazy" decoding="async"></a><a class="text-link" href="/zh-tw/contact/?app=pix-graph">有問題？聯絡我們 <span aria-hidden="true">→</span></a></div><a class="policy-link" href="/privacy/pix-graph.html">隱私權政策</a></section></main>
+  <footer class="footer"><div class="wrap"><div class="footer-inner"><p>© 2026 Pix-kit · 創作、學習、玩耍。</p>
+    <nav class="footer-links" aria-label="頁尾"><a href="/zh-tw/about/">關於我們</a><a href="/zh-tw/contact/">聯絡我們</a><a href="/privacy/pix-graph.html">PixGraph — 隱私權政策</a><a href="/privacy/pix-moments.html">Pix-Moments — 隱私權政策</a></nav></div>
+    <p class="policy-language-note">隱私權政策提供英文版本。</p><p class="legal-note">Google Play 和 Google Play 標誌是 Google LLC 的商標。</p></div></footer>
+  <dialog class="lightbox" id="image-viewer" aria-label="放大的螢幕截圖"><div class="lightbox-head"><p data-viewer-caption></p><button class="gallery-button" type="button" data-close aria-label="關閉放大的螢幕截圖">×</button></div><img alt=""></dialog>
+</body>
+</html>
