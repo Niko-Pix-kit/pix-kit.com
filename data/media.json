@@ -1,0 +1,125 @@
+{
+  "pix-graph": [
+    {
+      "stem": "feature-graphic",
+      "width": 1024,
+      "height": 500,
+      "smallWidth": 540,
+      "source": "feature-graphic.png"
+    },
+    {
+      "stem": "screen-01",
+      "width": 891,
+      "height": 2000,
+      "smallWidth": 428,
+      "source": "phone-screenshot-01.png"
+    },
+    {
+      "stem": "screen-02",
+      "width": 891,
+      "height": 2000,
+      "smallWidth": 428,
+      "source": "phone-screenshot-02.png"
+    },
+    {
+      "stem": "screen-03",
+      "width": 891,
+      "height": 2000,
+      "smallWidth": 428,
+      "source": "phone-screenshot-03.png"
+    },
+    {
+      "stem": "screen-04",
+      "width": 891,
+      "height": 2000,
+      "smallWidth": 428,
+      "source": "phone-screenshot-04.png"
+    },
+    {
+      "stem": "screen-05",
+      "width": 891,
+      "height": 2000,
+      "smallWidth": 428,
+      "source": "phone-screenshot-05.png"
+    },
+    {
+      "stem": "screen-06",
+      "width": 891,
+      "height": 2000,
+      "smallWidth": 428,
+      "source": "phone-screenshot-06.png"
+    },
+    {
+      "stem": "screen-07",
+      "width": 891,
+      "height": 2000,
+      "smallWidth": 428,
+      "source": "phone-screenshot-07.png"
+    }
+  ],
+  "pix-moments": [
+    {
+      "stem": "01-moments",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "01-moments.jpg"
+    },
+    {
+      "stem": "02-photos",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "02-photos.jpg"
+    },
+    {
+      "stem": "03-widgets",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "03-widgets.jpg"
+    },
+    {
+      "stem": "04-repeat",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "04-repeat.jpg"
+    },
+    {
+      "stem": "05-personalize",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "05-personalize.jpg"
+    },
+    {
+      "stem": "06-backup",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "06-backup.jpg"
+    },
+    {
+      "stem": "07-video",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "07-video.jpg"
+    },
+    {
+      "stem": "08-premium",
+      "width": 1080,
+      "height": 1920,
+      "smallWidth": 540,
+      "source": "08-premium.jpg"
+    },
+    {
+      "stem": "feature-graphic",
+      "width": 1024,
+      "height": 500,
+      "smallWidth": 540,
+      "source": "feature-graphic.png"
+    }
+  ]
+}

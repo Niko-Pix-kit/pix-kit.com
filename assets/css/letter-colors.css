@@ -1,0 +1,8 @@
+/* OPTIONAL EXPERIMENT. Remove this stylesheet link to remove all letter colors.
+   P/p and K/k use the original Pix-kit logo colors. Only marked large headings
+   is enhanced; legal pages, controls, email addresses and form fields are untouched. */
+.brand-p { color: #0084ce; }
+.brand-k { color: #ff6600; }
+@media (forced-colors: active) {
+  .brand-p, .brand-k { color: CanvasText; }
+}
