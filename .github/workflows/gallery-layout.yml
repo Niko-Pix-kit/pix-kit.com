@@ -3,20 +3,6 @@ name: Validate PixKit site
 on:
   push:
     branches: [main, 'work/**']
-    paths:
-      - 'assets/css/**'
-      - 'assets/js/**'
-      - 'assets/apps/**'
-      - 'data/apps.json'
-      - 'data/media.json'
-      - 'data/i18n/**'
-      - 'tools/**'
-      - 'platform/**'
-      - 'tests/**'
-      - '**/*.html'
-      - 'robots.txt'
-      - 'sitemap.xml'
-      - '.github/workflows/gallery-layout.yml'
   pull_request:
   workflow_dispatch:
 
