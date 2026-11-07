@@ -1,0 +1,21 @@
+# Local development and generated diagnostics
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.DS_Store
+.openai/
+dist/
+playwright-report/
+test-results/
+
+# Secrets and local configuration: never publish these files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+credentials*.json
+service-account*.json

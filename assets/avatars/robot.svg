@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Pixel robot">
+  <rect width="96" height="96" rx="20" fill="#eaf6ff"/>
+  <g stroke="#007fc4" stroke-width="4" stroke-linejoin="round">
+    <path d="M46 17v12M20 44h-5v20h5M76 44h5v20h-5" fill="none"/>
+    <path d="M24 29h48v48H24z" fill="#fff"/>
+    <path d="M38 77v7m20-7v7" fill="none"/>
+  </g>
+  <path d="M40 11h16v10H40zM34 43h10v12H34zM54 43h10v12H54zM37 63h22v6H37z" fill="#ff7900"/>
+</svg>

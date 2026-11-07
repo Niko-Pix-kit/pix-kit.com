@@ -1,0 +1,382 @@
+{
+  "en": {
+    "guidelines": [
+      "Community Guidelines & Moderation Policy",
+      ["What belongs here", "PixKit is for programming, software development, computer science, AI, learning, and constructive project discussion. Technical security discussions, code examples, respectful criticism and disagreement are welcome. Keep unrelated political disputes, personal conflicts and unsolicited promotion out of the forum."],
+      ["What we restrict", "Harassment, threats, discriminatory abuse, sexually explicit or exploitative material, spam, scams, unauthorized disclosure of private information, malicious links or intentionally harmful code, repeated off-topic or disruptive behavior, and abuse or evasion of reporting, voting or moderation are prohibited."],
+      ["How moderation works", "Rate limits, security checks and AI-assisted analysis help identify risks. An external provider, OpenAI, can receive the text needed to assess harassment, threats, hate, sexual content, violence and illicit intent. Automated checks can miss harmful content or flag legitimate technical posts. PixKit can hold, reject, hide or remove content, warn an account, temporarily suspend it or permanently ban it. Moderators can review and reverse automated decisions."],
+      ["Reporting and appeals", "Use the report control on a post or comment to flag it for review. If your content is restricted, check the reason shown for the submission and use the appeal option where available. If you cannot access the forum or the appeal control, email us with a link or reference. Moderation scores and private report details are not published."]
+    ],
+    "privacy": [
+      "Member Platform Privacy Policy",
+      ["Account and learning data", "Nihon Essentials Hub G.K. operates PixKit. We use your account ID, email if supplied, sign-in provider, display name, avatar if available, language, account status, activity dates, and lesson progress to authenticate you, manage your account and synchronize learning across devices. Supabase provides authentication and database services. Your chosen sign-in provider processes your sign-in. Essential session cookies keep you signed in. Optional analytics follows the separate cookie policy."],
+      ["Forum and safety data", "Published posts and comments can be read publicly with the displayed author name. We process votes, reports, appeals, moderation decisions and limited abuse-prevention records to operate the forum and enforce its rules. Our external moderation provider, OpenAI, may process the text needed for a check. Service providers may process information outside Japan. Report details, private account data and moderation scores are restricted to authorized access."],
+      ["Retention and your requests", "We keep account and progress data while needed to provide your account, and retain safety records for review, abuse prevention, or legal needs. Backups have a separate expiry cycle. Use your account settings to request deletion of your account and saved progress. Public thread context and limited safety records may remain when necessary. Contact us to request access, correction, cessation of use or deletion, where applicable under Japan’s Act on the Protection of Personal Information (APPI)."]
+    ],
+    "terms": [
+      "Member Platform Terms of Use",
+      ["Membership and course access", "These terms supplement the general PixKit Terms of Use. You are responsible for activity through your account and for keeping your sign-in credentials secure. Public previews are available to visitors. Published member lessons in this phase are free with an account. Paid subscriptions, course purchases and payment collection are currently disabled. Any future paid offer will have separate pricing and terms."],
+      ["Community participation", "Only post content you have permission to share. By posting publicly you allow PixKit to display it for operation of the forum. Follow the Community Guidelines, including reporting and appeal procedures. PixKit may restrict content or accounts to protect the community. You can delete your account through account settings or contact us for assistance."]
+    ]
+  },
+  "fr": {
+    "guidelines": [
+      "Règles de la communauté et politique de modération",
+      ["Le rôle du forum", "PixKit est consacré à la programmation, au développement logiciel, à l’informatique, à l’IA, à l’apprentissage et aux échanges constructifs sur les projets. Les discussions techniques sur la sécurité, les exemples de code, la critique respectueuse et le désaccord sont bienvenus. Évitez les querelles politiques sans rapport, les conflits personnels et la publicité non sollicitée."],
+      ["Contenus et comportements interdits", "Sont interdits le harcèlement, les menaces, les propos discriminatoires, les contenus sexuellement explicites ou relevant de l’exploitation, le spam, les arnaques, la divulgation non autorisée d’informations privées, les liens malveillants ou le code délibérément nuisible, les écarts répétés au sujet et les perturbations répétées, ainsi que l’abus ou le contournement des votes, des signalements et de la modération."],
+      ["Fonctionnement de la modération", "Les limites de fréquence, les contrôles de sécurité et l’analyse assistée par IA contribuent à repérer les risques. OpenAI, un prestataire externe, peut recevoir le texte nécessaire à l’évaluation du harcèlement, des menaces, de la haine, du contenu sexuel, de la violence et des intentions illicites. Les systèmes automatisés peuvent manquer un contenu nuisible ou signaler une publication technique légitime. PixKit peut mettre en attente, refuser, masquer ou supprimer un contenu, avertir un membre, suspendre ou bannir un compte. La modération humaine peut réexaminer et annuler une décision automatisée."],
+      ["Signalements et recours", "Utilisez le bouton de signalement d’une publication ou d’un commentaire. Si votre contenu est restreint, consultez le motif affiché et utilisez l’option de recours lorsqu’elle est disponible. Si vous ne pouvez pas accéder au forum ou à ce contrôle, envoyez-nous le lien ou la référence par e-mail. Les scores et les détails des signalements privés restent confidentiels."]
+    ],
+    "privacy": [
+      "Politique de confidentialité de l’espace membre",
+      ["Compte et apprentissage", "Nihon Essentials Hub G.K. exploite PixKit. Nous utilisons l’identifiant de votre compte, l’adresse e-mail si elle est fournie, le fournisseur de connexion, le nom affiché, l’avatar s’il est disponible, la langue, le statut, les dates d’activité et la progression pour gérer votre connexion, votre compte et la synchronisation entre appareils. Supabase fournit les services d’authentification et de base de données. Votre fournisseur de connexion traite votre authentification. Les cookies de session essentiels maintiennent la connexion. Les statistiques facultatives relèvent de la politique relative aux cookies."],
+      ["Forum et sécurité", "Les publications et commentaires publics sont visibles avec le nom affiché de l’auteur. Nous traitons les votes, les signalements, les recours, les décisions de modération et des traces limitées de prévention des abus pour exploiter le forum. OpenAI, prestataire externe de modération, peut traiter le texte nécessaire au contrôle. Des prestataires peuvent traiter des données hors du Japon. L’accès aux détails des signalements, aux données privées et aux scores de modération est réservé aux personnes et services autorisés."],
+      ["Conservation et demandes", "Nous conservons les données de compte et de progression tant qu’elles sont nécessaires au service. Les traces de sécurité peuvent être conservées pour la révision, la prévention des abus ou des besoins légaux. Les sauvegardes ont leur propre échéance. Demandez la suppression du compte et de la progression dans les réglages du compte. Le contexte d’un fil public et certaines traces de sécurité peuvent subsister si nécessaire. Contactez-nous pour demander l’accès, la rectification, l’arrêt de l’utilisation ou l’effacement, selon les dispositions applicables de la loi japonaise sur la protection des informations personnelles (APPI)."]
+    ],
+    "terms": [
+      "Conditions d’utilisation de l’espace membre",
+      ["Compte et accès aux cours", "Ces conditions complètent les conditions générales de PixKit. Vous êtes responsable des activités effectuées avec votre compte et de la sécurité de vos identifiants. Les aperçus sont publics. Durant cette phase, les leçons publiées pour les membres sont gratuites avec un compte. Les abonnements payants, achats de cours et encaissements sont désactivés. Toute offre payante future aura ses propres tarifs et conditions."],
+      ["Participation au forum", "Publiez uniquement du contenu que vous êtes autorisé à partager. En publiant du contenu public, vous autorisez PixKit à l’afficher pour faire fonctionner le forum. Respectez les règles de la communauté, notamment les procédures de signalement et de recours. PixKit peut restreindre les contenus ou les comptes pour protéger la communauté. Supprimez votre compte dans ses réglages ou contactez-nous pour obtenir de l’aide."]
+    ]
+  },
+  "ja": {
+    "guidelines": [
+      "コミュニティガイドラインとモデレーション方針",
+      ["フォーラムの目的", "PixKitはプログラミング、ソフトウェア開発、コンピューター科学、AI、学習、プロジェクトに関する建設的な交流の場です。技術的なセキュリティの議論、コード例、相手を尊重した批判や異論を歓迎します。無関係な政治的論争、個人的な争い、求められていない宣伝は控えてください。"],
+      ["禁止事項", "嫌がらせ、脅迫、差別的な攻撃、露骨な性的コンテンツや性的搾取、スパム、詐欺、許可のない個人情報の公開、悪意のあるリンクや意図的に有害なコード、繰り返される脱線や妨害、通報・投票・モデレーションの悪用や回避を禁止します。"],
+      ["モデレーションの方法", "投稿頻度の制限、セキュリティチェック、AIによる分析でリスクを確認します。外部事業者であるOpenAIに、嫌がらせ、脅迫、憎悪、性的コンテンツ、暴力、違法な意図の判定に必要なテキストを送る場合があります。自動判定は有害な投稿を見逃したり、正当な技術投稿を誤って検知したりする可能性があります。PixKitは保留、掲載拒否、非表示、削除、警告、一時停止、永久利用停止を行うことがあります。モデレーターは自動判定を再審査し、取り消せます。"],
+      ["通報と異議申し立て", "投稿やコメントの通報機能をご利用ください。ご自身の投稿に制限がかかった場合は、表示された理由を確認し、利用可能な場合は異議申し立てを行ってください。フォーラムや申請機能にアクセスできない場合は、リンクまたは参照情報を添えてメールでご連絡ください。判定スコアや非公開の通報情報は公開しません。"]
+    ],
+    "privacy": [
+      "会員プラットフォームのプライバシーポリシー",
+      ["アカウントと学習データ", "PixKitはNihon Essentials Hub G.K.が運営します。認証、アカウント管理、端末間の学習進捗の同期のため、アカウントID、提供されたメールアドレス、ログイン事業者、表示名、利用可能なアバター、言語、アカウント状態、利用日時、学習進捗を取り扱います。Supabaseが認証とデータベースを提供し、選択したログイン事業者が認証を処理します。ログインの維持には必須のセッションCookieを使用します。任意のアクセス解析は別途Cookieポリシーに従います。"],
+      ["フォーラムと安全対策", "公開された投稿やコメントには投稿者の表示名が付き、誰でも閲覧できます。フォーラムの運営とルールの適用のため、投票、通報、異議申し立て、モデレーションの決定、不正防止に必要な記録を処理します。外部モデレーション事業者のOpenAIが、確認に必要なテキストを処理する場合があります。委託先は日本国外で情報を処理する場合があります。通報の詳細、非公開のアカウント情報、判定スコアへのアクセスは権限のある者に限定します。"],
+      ["保存期間とご請求", "アカウントと進捗のデータはサービス提供に必要な間、保持します。安全対策の記録は再審査、不正防止、法的対応に必要な間、保持する場合があります。バックアップには別途保存期間があります。アカウント設定からアカウントと保存済み進捗の削除を申請できます。公開スレッドの文脈や最小限の安全対策の記録が必要に応じて残る場合があります。個人情報保護法（APPI）に基づき、該当する場合は開示、訂正、利用停止、消去をご請求いただけます。下記までご連絡ください。"]
+    ],
+    "terms": [
+      "会員プラットフォーム利用規約",
+      ["会員登録とコースへのアクセス", "本規約はPixKitの一般利用規約を補足します。アカウントで行われる活動と認証情報の安全管理は利用者の責任です。プレビューは公開されています。現在、会員向けに公開されているレッスンはアカウント登録により無料で利用できます。有料購読、コース購入、決済の受付は現在行っていません。将来有料サービスを提供する場合は、料金と条件を別途定めます。"],
+      ["コミュニティへの参加", "共有する権利がある内容だけを投稿してください。公開投稿を行うと、フォーラムの運営に必要な範囲でPixKitがその内容を表示できるものとします。通報と異議申し立てを含むコミュニティガイドラインに従ってください。PixKitはコミュニティを守るために投稿やアカウントを制限することがあります。アカウントは設定から削除できます。サポートが必要な場合はご連絡ください。"]
+    ]
+  },
+  "de": {
+    "guidelines": [
+      "Community-Richtlinien und Moderationsregeln",
+      ["Wofür das Forum da ist", "PixKit ist ein Ort für Programmierung, Softwareentwicklung, Informatik, KI, Lernen und konstruktiven Austausch über Projekte. Technische Sicherheitsdiskussionen, Codebeispiele, respektvolle Kritik und unterschiedliche Meinungen sind willkommen. Sachfremde politische Debatten, persönliche Konflikte und unerbetene Werbung gehören nicht ins Forum."],
+      ["Was wir einschränken", "Untersagt sind Belästigung, Drohungen, diskriminierende Angriffe, sexuell explizite oder ausbeuterische Inhalte, Spam, Betrug, unbefugte Weitergabe privater Informationen, schädliche Links oder absichtlich schädlicher Code, wiederholte Themenabweichung oder Störung sowie Missbrauch oder Umgehung von Meldungen, Abstimmungen oder Moderation."],
+      ["Wie wir moderieren", "Ratenlimits, Sicherheitsprüfungen und KI-gestützte Analysen helfen, Risiken zu erkennen. Der externe Anbieter OpenAI kann erforderlichen Text zur Prüfung auf Belästigung, Drohungen, Hass, sexuelle Inhalte, Gewalt und rechtswidrige Absichten erhalten. Automatisierte Prüfungen können schädliche Inhalte übersehen oder legitime technische Beiträge markieren. PixKit kann Inhalte zurückhalten, ablehnen, ausblenden oder entfernen und Konten verwarnen, vorübergehend sperren oder dauerhaft ausschließen. Moderatoren können automatisierte Entscheidungen überprüfen und rückgängig machen."],
+      ["Meldungen und Einsprüche", "Nutze die Meldefunktion bei Beiträgen oder Kommentaren. Wird dein Inhalt eingeschränkt, beachte die angezeigte Begründung und lege, soweit verfügbar, Einspruch ein. Wenn du keinen Zugriff auf Forum oder Einspruchsfunktion hast, sende uns per E-Mail den Link oder eine Referenz. Moderationsbewertungen und vertrauliche Meldedetails werden nicht veröffentlicht."]
+    ],
+    "privacy": [
+      "Datenschutzerklärung für die Mitgliederplattform",
+      ["Konto und Lerndaten", "Nihon Essentials Hub G.K. betreibt PixKit. Wir verarbeiten Konto-ID, gegebenenfalls E-Mail-Adresse, Anmeldeanbieter, Anzeigename, verfügbaren Avatar, Sprache, Kontostatus, Aktivitätszeitpunkte und Lernfortschritt für Anmeldung, Kontoverwaltung und Synchronisierung. Supabase stellt Authentifizierung und Datenbank bereit. Der gewählte Anbieter verarbeitet deine Anmeldung. Erforderliche Sitzungscookies halten dich angemeldet. Für optionale Analysen gilt die gesonderte Cookie-Richtlinie."],
+      ["Forum und Sicherheit", "Veröffentlichte Beiträge und Kommentare sind mit dem Anzeigenamen öffentlich lesbar. Wir verarbeiten Stimmen, Meldungen, Einsprüche, Moderationsentscheidungen und begrenzte Daten zur Missbrauchsprävention für den Forumbetrieb. Der externe Anbieter OpenAI kann den für die Prüfung benötigten Text verarbeiten. Dienstleister können Informationen außerhalb Japans verarbeiten. Auf Meldedetails, private Kontodaten und Moderationsbewertungen dürfen nur Berechtigte zugreifen."],
+      ["Aufbewahrung und Anfragen", "Wir speichern Konto- und Fortschrittsdaten so lange wie für das Konto nötig und Sicherheitsdaten für Überprüfung, Missbrauchsprävention oder rechtliche Zwecke. Sicherungskopien haben eigene Löschfristen. In den Kontoeinstellungen kannst du die Löschung von Konto und gespeichertem Fortschritt beantragen. Öffentlicher Gesprächskontext und begrenzte Sicherheitsdaten können bei Bedarf erhalten bleiben. Kontaktiere uns für Auskunft, Berichtigung, Einstellung der Nutzung oder Löschung nach dem japanischen Datenschutzgesetz APPI, soweit anwendbar."]
+    ],
+    "terms": [
+      "Nutzungsbedingungen für die Mitgliederplattform",
+      ["Mitgliedschaft und Kurszugang", "Diese Bedingungen ergänzen die allgemeinen PixKit-Nutzungsbedingungen. Du bist für Aktivitäten über dein Konto und die Sicherheit deiner Zugangsdaten verantwortlich. Vorschauen sind öffentlich. Veröffentlichte Mitgliederlektionen sind in dieser Phase mit Konto kostenlos. Kostenpflichtige Abos, Kurskäufe und Zahlungen sind derzeit deaktiviert. Für zukünftige kostenpflichtige Angebote gelten eigene Preise und Bedingungen."],
+      ["Teilnahme am Forum", "Veröffentliche nur Inhalte, die du teilen darfst. Mit einer öffentlichen Veröffentlichung erlaubst du PixKit die Anzeige für den Forumbetrieb. Beachte die Community-Richtlinien, auch für Meldungen und Einsprüche. PixKit kann Inhalte oder Konten zum Schutz der Gemeinschaft einschränken. Du kannst dein Konto in den Einstellungen löschen oder uns um Hilfe bitten."]
+    ]
+  },
+  "es": {
+    "guidelines": [
+      "Normas de la comunidad y política de moderación",
+      ["Finalidad del foro", "PixKit está dedicado a la programación, el desarrollo de software, la informática, la IA, el aprendizaje y el debate constructivo sobre proyectos. Se admiten debates técnicos sobre seguridad, ejemplos de código, críticas respetuosas y desacuerdos. Evita disputas políticas ajenas al tema, conflictos personales y publicidad no solicitada."],
+      ["Qué restringimos", "Se prohíben el acoso, las amenazas, los ataques discriminatorios, el contenido sexual explícito o de explotación, el spam, las estafas, la divulgación no autorizada de información privada, los enlaces maliciosos o el código intencionadamente dañino, las desviaciones y perturbaciones reiteradas y el abuso o la elusión de las denuncias, las votaciones o la moderación."],
+      ["Cómo moderamos", "Los límites de frecuencia, los controles de seguridad y el análisis con IA ayudan a detectar riesgos. Un proveedor externo, OpenAI, puede recibir el texto necesario para evaluar el acoso, las amenazas, el odio, el contenido sexual, la violencia y las intenciones ilícitas. Los controles automáticos pueden pasar por alto contenido dañino o señalar publicaciones técnicas legítimas. PixKit puede retener, rechazar, ocultar o eliminar contenido, emitir avisos, suspender temporalmente o expulsar permanentemente. Los moderadores pueden revisar y revertir decisiones automáticas."],
+      ["Denuncias y recursos", "Usa la opción de denuncia de una publicación o comentario. Si se restringe tu contenido, consulta el motivo indicado y usa el recurso si está disponible. Si no puedes acceder al foro o a esa opción, envíanos por correo el enlace o la referencia. Las puntuaciones de moderación y los detalles privados de las denuncias no se publican."]
+    ],
+    "privacy": [
+      "Política de privacidad de la plataforma de miembros",
+      ["Cuenta y aprendizaje", "Nihon Essentials Hub G.K. opera PixKit. Usamos el ID de cuenta, el correo si se facilita, el proveedor de acceso, el nombre público, el avatar si existe, el idioma, el estado, las fechas de actividad y el progreso para autenticarte, gestionar tu cuenta y sincronizar el aprendizaje. Supabase presta los servicios de autenticación y base de datos. El proveedor elegido procesa el inicio de sesión. Las cookies esenciales mantienen tu sesión. La analítica opcional se rige por la política de cookies."],
+      ["Foro y seguridad", "Las publicaciones y comentarios públicos se muestran con el nombre visible del autor. Procesamos votos, denuncias, recursos, decisiones de moderación y registros limitados para prevenir abusos. OpenAI, proveedor externo de moderación, puede procesar el texto necesario para la revisión. Los proveedores pueden tratar datos fuera de Japón. El acceso a detalles privados de denuncias, datos de cuenta y puntuaciones de moderación está restringido."],
+      ["Conservación y solicitudes", "Guardamos datos de cuenta y progreso mientras sean necesarios para prestar el servicio, y registros de seguridad para revisión, prevención de abusos o necesidades legales. Las copias de seguridad tienen su propio plazo. Solicita la eliminación de la cuenta y el progreso en los ajustes. Puede conservarse el contexto público de un hilo y registros de seguridad limitados cuando sea necesario. Escríbenos para pedir acceso, rectificación, cese de uso o supresión según corresponda en virtud de la ley japonesa de protección de información personal (APPI)."]
+    ],
+    "terms": [
+      "Condiciones de uso de la plataforma de miembros",
+      ["Cuenta y acceso a cursos", "Estas condiciones complementan las condiciones generales de PixKit. Eres responsable de la actividad de tu cuenta y de proteger tus credenciales. Las vistas previas son públicas. Las lecciones publicadas para miembros son gratuitas con una cuenta en esta fase. Las suscripciones de pago, las compras de cursos y los cobros están desactivados. Las futuras ofertas de pago tendrán precios y condiciones propios."],
+      ["Participación en el foro", "Publica solo contenido que tengas permiso de compartir. Al publicarlo, permites que PixKit lo muestre para operar el foro. Respeta las normas de la comunidad y los procedimientos de denuncia y recurso. PixKit puede restringir contenido o cuentas para proteger la comunidad. Elimina tu cuenta desde los ajustes o ponte en contacto para recibir ayuda."]
+    ]
+  },
+  "it": {
+    "guidelines": [
+      "Linee guida della community e norme di moderazione",
+      ["Scopo del forum", "PixKit è dedicato a programmazione, sviluppo software, informatica, IA, apprendimento e discussioni costruttive sui progetti. Sono benvenuti i dibattiti tecnici sulla sicurezza, gli esempi di codice, le critiche rispettose e il dissenso. Evita controversie politiche estranee, conflitti personali e promozioni non richieste."],
+      ["Cosa vietiamo", "Sono vietati molestie, minacce, abusi discriminatori, contenuti sessualmente espliciti o di sfruttamento, spam, truffe, divulgazione non autorizzata di dati privati, link o codice deliberatamente dannosi, ripetuti interventi fuori tema o di disturbo, e l’abuso o l’elusione di segnalazioni, voti e moderazione."],
+      ["Come funziona la moderazione", "Limiti di frequenza, controlli di sicurezza e analisi con IA aiutano a individuare i rischi. Il fornitore esterno OpenAI può ricevere il testo necessario per valutare molestie, minacce, odio, contenuti sessuali, violenza e intenti illeciti. I controlli automatici possono non rilevare contenuti dannosi o segnalare contributi tecnici legittimi. PixKit può trattenere, rifiutare, nascondere o rimuovere contenuti, inviare avvisi, sospendere o escludere definitivamente un account. I moderatori possono riesaminare e annullare le decisioni automatiche."],
+      ["Segnalazioni e ricorsi", "Usa il comando di segnalazione su un post o commento. Se un tuo contenuto viene limitato, leggi il motivo mostrato e presenta ricorso se l’opzione è disponibile. Se non puoi accedere al forum o al comando, scrivici indicando il link o un riferimento. I punteggi di moderazione e i dettagli riservati delle segnalazioni non vengono pubblicati."]
+    ],
+    "privacy": [
+      "Informativa sulla privacy della piattaforma membri",
+      ["Account e apprendimento", "Nihon Essentials Hub G.K. gestisce PixKit. Usiamo ID account, email se fornita, provider di accesso, nome visualizzato, avatar se disponibile, lingua, stato, date di attività e progressi per autenticarti, gestire l’account e sincronizzare l’apprendimento. Supabase fornisce autenticazione e database. Il provider scelto gestisce il tuo accesso. I cookie di sessione essenziali mantengono l’accesso. L’analisi facoltativa segue l’informativa sui cookie."],
+      ["Forum e sicurezza", "Post e commenti pubblicati sono visibili a tutti con il nome visualizzato dell’autore. Trattiamo voti, segnalazioni, ricorsi, decisioni di moderazione e registri limitati per prevenire abusi. OpenAI, fornitore esterno di moderazione, può trattare il testo necessario ai controlli. I fornitori possono trattare dati fuori dal Giappone. L’accesso ai dettagli delle segnalazioni, ai dati privati e ai punteggi è riservato ai soggetti autorizzati."],
+      ["Conservazione e richieste", "Conserviamo dati dell’account e progressi per il tempo necessario al servizio, e registri di sicurezza per riesame, prevenzione degli abusi o esigenze legali. Le copie di sicurezza scadono separatamente. Richiedi la cancellazione dell’account e dei progressi dalle impostazioni. Il contesto pubblico delle discussioni e registri di sicurezza limitati possono essere mantenuti quando necessario. Contattaci per accesso, rettifica, cessazione dell’uso o cancellazione nei casi previsti dalla legge giapponese sulla protezione dei dati personali (APPI)."]
+    ],
+    "terms": [
+      "Condizioni d’uso della piattaforma membri",
+      ["Iscrizione e accesso ai corsi", "Queste condizioni integrano le condizioni generali di PixKit. Sei responsabile dell’attività del tuo account e della sicurezza delle credenziali. Le anteprime sono pubbliche. In questa fase, le lezioni pubblicate per i membri sono gratuite con un account. Abbonamenti a pagamento, acquisti di corsi e incassi sono disabilitati. Eventuali offerte future avranno prezzi e condizioni separati."],
+      ["Partecipazione alla community", "Pubblica solo contenuti che puoi condividere. Con la pubblicazione consenti a PixKit di mostrarli per gestire il forum. Segui le linee guida, incluse le procedure di segnalazione e ricorso. PixKit può limitare contenuti o account per proteggere la community. Puoi cancellare l’account dalle impostazioni o contattarci per assistenza."]
+    ]
+  },
+  "pt": {
+    "guidelines": [
+      "Regras da comunidade e política de moderação",
+      ["Finalidade do fórum", "O PixKit é um espaço para programação, desenvolvimento de software, informática, IA, aprendizagem e debate construtivo sobre projetos. Debates técnicos sobre segurança, exemplos de código, críticas respeitosas e divergências são bem-vindos. Evite disputas políticas alheias aos temas, conflitos pessoais e publicidade não solicitada."],
+      ["O que é proibido", "São proibidos assédio, ameaças, ataques discriminatórios, conteúdos sexualmente explícitos ou de exploração, spam, burlas, divulgação não autorizada de informações privadas, ligações ou código deliberadamente nocivos, perturbações ou desvios do tema repetidos e abuso ou evasão das denúncias, votações ou moderação."],
+      ["Como moderamos", "Limites de frequência, controlos de segurança e análise com IA ajudam a detetar riscos. A OpenAI, prestador externo, pode receber o texto necessário para avaliar assédio, ameaças, ódio, conteúdos sexuais, violência e intenções ilícitas. A análise automática pode falhar ou assinalar publicações técnicas legítimas. O PixKit pode reter, rejeitar, ocultar ou remover conteúdos, emitir avisos, suspender ou banir contas. A equipa de moderação pode rever e anular decisões automáticas."],
+      ["Denúncias e recursos", "Utilize a opção de denúncia numa publicação ou comentário. Se um conteúdo seu for restringido, consulte o motivo apresentado e recorra quando a opção estiver disponível. Sem acesso ao fórum ou ao recurso, envie-nos uma ligação ou referência por e-mail. As pontuações e os detalhes privados das denúncias não são publicados."]
+    ],
+    "privacy": [
+      "Política de privacidade da plataforma de membros",
+      ["Conta e aprendizagem", "A Nihon Essentials Hub G.K. opera o PixKit. Tratamos o ID da conta, o e-mail quando fornecido, o prestador de autenticação, o nome apresentado, o avatar quando disponível, o idioma, o estado, as datas de atividade e o progresso para autenticação, gestão da conta e sincronização. A Supabase fornece autenticação e base de dados. O prestador escolhido trata a autenticação. Os cookies essenciais mantêm a sessão. As análises opcionais seguem a política de cookies."],
+      ["Fórum e segurança", "As publicações e os comentários públicos são visíveis com o nome apresentado do autor. Tratamos votos, denúncias, recursos, decisões de moderação e registos limitados para prevenir abusos. A OpenAI, prestador externo de moderação, pode tratar o texto necessário à análise. Os prestadores podem tratar dados fora do Japão. O acesso a detalhes das denúncias, dados privados e pontuações é restrito."],
+      ["Conservação e pedidos", "Conservamos dados da conta e de progresso enquanto necessários ao serviço e registos de segurança para revisão, prevenção de abusos ou fins legais. As cópias de segurança têm prazos próprios. Peça a eliminação da conta e do progresso nas definições. O contexto público de uma discussão e registos de segurança limitados podem ser mantidos quando necessário. Contacte-nos para pedir acesso, retificação, cessação do uso ou eliminação nos termos aplicáveis da lei japonesa de proteção de informações pessoais (APPI)."]
+    ],
+    "terms": [
+      "Termos de utilização da plataforma de membros",
+      ["Conta e acesso a cursos", "Estes termos complementam os termos gerais do PixKit. É responsável pela atividade da sua conta e pela segurança das credenciais. As prévias são públicas. Nesta fase, as lições publicadas para membros são gratuitas com conta. Subscrições pagas, compras de cursos e pagamentos estão desativados. Futuras ofertas pagas terão condições e preços próprios."],
+      ["Participação no fórum", "Publique apenas conteúdos que tem autorização para partilhar. Ao publicar, permite ao PixKit apresentar o conteúdo para operar o fórum. Siga as regras da comunidade, incluindo denúncias e recursos. O PixKit pode restringir conteúdos ou contas para proteger a comunidade. Elimine a sua conta nas definições ou contacte-nos para obter ajuda."]
+    ]
+  },
+  "pt-br": {
+    "guidelines": [
+      "Diretrizes da comunidade e política de moderação",
+      ["Finalidade do fórum", "O PixKit é um espaço para programação, desenvolvimento de software, ciência da computação, IA, aprendizado e discussões construtivas sobre projetos. Debates técnicos de segurança, exemplos de código, críticas respeitosas e opiniões divergentes são bem-vindos. Evite discussões políticas sem relação com o tema, conflitos pessoais e publicidade não solicitada."],
+      ["O que é proibido", "São proibidos assédio, ameaças, ataques discriminatórios, conteúdo sexualmente explícito ou exploratório, spam, golpes, divulgação não autorizada de informações privadas, links maliciosos ou código deliberadamente nocivo, perturbações ou desvios de tema repetidos e abuso ou tentativa de burlar denúncias, votações ou moderação."],
+      ["Como moderamos", "Limites de frequência, verificações de segurança e análise com IA ajudam a identificar riscos. A OpenAI, fornecedora externa, pode receber o texto necessário para avaliar assédio, ameaças, ódio, conteúdo sexual, violência e intenção ilícita. Verificações automáticas podem deixar passar conteúdo nocivo ou sinalizar publicações técnicas legítimas. O PixKit pode reter, rejeitar, ocultar ou remover conteúdo, advertir, suspender temporariamente ou banir contas. Moderadores podem revisar e reverter decisões automáticas."],
+      ["Denúncias e recursos", "Use a opção de denúncia em uma publicação ou comentário. Se seu conteúdo for restringido, veja o motivo e recorra quando a opção estiver disponível. Se não tiver acesso ao fórum ou ao recurso, envie por e-mail o link ou uma referência. As pontuações e os detalhes privados das denúncias não são publicados."]
+    ],
+    "privacy": [
+      "Política de privacidade da plataforma de membros",
+      ["Conta e aprendizado", "A Nihon Essentials Hub G.K. opera o PixKit. Usamos ID da conta, e-mail se fornecido, provedor de login, nome exibido, avatar se disponível, idioma, situação da conta, datas de atividade e progresso para autenticação, gestão da conta e sincronização. A Supabase fornece autenticação e banco de dados. O provedor escolhido processa seu login. Cookies essenciais mantêm a sessão. As análises opcionais seguem a política de cookies."],
+      ["Fórum e segurança", "Publicações e comentários públicos aparecem com o nome exibido do autor. Processamos votos, denúncias, recursos, decisões de moderação e registros limitados para prevenir abusos. A OpenAI, fornecedora externa de moderação, pode processar o texto necessário para a verificação. Prestadores podem tratar informações fora do Japão. O acesso a detalhes de denúncias, dados privados e pontuações é restrito."],
+      ["Retenção e solicitações", "Guardamos dados de conta e progresso enquanto necessários ao serviço e registros de segurança para revisão, prevenção de abusos ou fins legais. Os backups têm prazo próprio. Solicite a exclusão da conta e do progresso nas configurações. O contexto público de uma discussão e registros limitados de segurança podem permanecer quando necessário. Fale conosco para pedir acesso, correção, interrupção do uso ou exclusão, conforme a lei japonesa de proteção de informações pessoais (APPI), quando aplicável."]
+    ],
+    "terms": [
+      "Termos de uso da plataforma de membros",
+      ["Conta e acesso a cursos", "Estes termos complementam os termos gerais do PixKit. Você é responsável pela atividade da conta e pela segurança de suas credenciais. As prévias são públicas. Nesta fase, as aulas publicadas para membros são gratuitas com uma conta. Assinaturas pagas, compras de cursos e pagamentos estão desativados. Ofertas futuras terão preços e condições próprios."],
+      ["Participação no fórum", "Publique apenas conteúdo que você pode compartilhar. Ao publicar, você permite que o PixKit exiba o conteúdo para operar o fórum. Siga as diretrizes, inclusive os procedimentos de denúncia e recurso. O PixKit pode restringir conteúdo ou contas para proteger a comunidade. Exclua sua conta nas configurações ou fale conosco para pedir ajuda."]
+    ]
+  },
+  "nl": {
+    "guidelines": [
+      "Communityrichtlijnen en moderatiebeleid",
+      ["Waarvoor het forum dient", "PixKit is bedoeld voor programmeren, softwareontwikkeling, informatica, AI, leren en constructieve gesprekken over projecten. Technische beveiligingsdiscussies, codevoorbeelden, respectvolle kritiek en meningsverschillen zijn welkom. Vermijd ongerelateerde politieke discussies, persoonlijke conflicten en ongevraagde reclame."],
+      ["Wat wij beperken", "Intimidatie, bedreiging, discriminerende uitingen, seksueel expliciet of uitbuitend materiaal, spam, oplichting, het ongeoorloofd publiceren van privégegevens, schadelijke links of opzettelijk schadelijke code, herhaaldelijk verstorend of niet ter zake doend gedrag en misbruik of omzeiling van meldingen, stemmen en moderatie zijn verboden."],
+      ["Hoe we modereren", "Frequentielimieten, beveiligingscontroles en AI-analyse helpen risico’s te herkennen. De externe aanbieder OpenAI kan de benodigde tekst ontvangen voor beoordeling op intimidatie, bedreiging, haat, seksuele inhoud, geweld en onrechtmatige bedoelingen. Automatische controles kunnen schadelijke berichten missen of legitieme technische bijdragen markeren. PixKit kan inhoud tegenhouden, afwijzen, verbergen of verwijderen en accounts waarschuwen, schorsen of definitief blokkeren. Moderatoren kunnen automatische besluiten herzien en terugdraaien."],
+      ["Melden en bezwaar", "Gebruik de meldoptie bij een bericht of reactie. Is je bijdrage beperkt, bekijk dan de reden en maak waar mogelijk bezwaar. Heb je geen toegang tot het forum of de optie, mail ons dan de link of referentie. Moderatiescores en vertrouwelijke meldgegevens worden niet gepubliceerd."]
+    ],
+    "privacy": [
+      "Privacybeleid van het ledenplatform",
+      ["Account en leren", "Nihon Essentials Hub G.K. beheert PixKit. We verwerken account-ID, opgegeven e-mailadres, aanmeldprovider, schermnaam, beschikbare avatar, taal, status, activiteitstijden en voortgang voor aanmelding, accountbeheer en synchronisatie. Supabase verzorgt authenticatie en de database. Je gekozen provider verwerkt de aanmelding. Essentiële sessiecookies houden je aangemeld. Voor optionele statistieken geldt het aparte cookiebeleid."],
+      ["Forum en veiligheid", "Gepubliceerde bijdragen en reacties zijn openbaar met de schermnaam van de auteur. Voor het forum verwerken we stemmen, meldingen, bezwaren, moderatiebesluiten en beperkte gegevens ter voorkoming van misbruik. Externe moderatieaanbieder OpenAI kan benodigde tekst verwerken. Dienstverleners kunnen gegevens buiten Japan verwerken. Toegang tot meldgegevens, privégegevens en moderatiescores is beperkt tot bevoegden."],
+      ["Bewaring en verzoeken", "We bewaren account- en voortgangsgegevens zolang nodig voor het account en veiligheidsgegevens voor controle, misbruikpreventie of wettelijke doeleinden. Back-ups hebben een aparte bewaartermijn. Vraag verwijdering van account en voortgang aan via de accountinstellingen. Openbare gesprekscontext en beperkte veiligheidsgegevens kunnen zo nodig blijven bestaan. Neem contact op voor inzage, correctie, stopzetting van gebruik of verwijdering voor zover de Japanse privacywet APPI van toepassing is."]
+    ],
+    "terms": [
+      "Gebruiksvoorwaarden van het ledenplatform",
+      ["Lidmaatschap en cursussen", "Deze voorwaarden vullen de algemene PixKit-voorwaarden aan. Je bent verantwoordelijk voor activiteiten via je account en voor veilige inloggegevens. Voorbeelden zijn openbaar. Gepubliceerde lessen voor leden zijn in deze fase gratis met een account. Betaalde abonnementen, cursusaankopen en betalingen zijn uitgeschakeld. Latere betaalde aanbiedingen krijgen eigen prijzen en voorwaarden."],
+      ["Deelnemen aan het forum", "Plaats alleen inhoud die je mag delen. Door openbaar te posten geef je PixKit toestemming die inhoud voor het forum te tonen. Volg de communityrichtlijnen, waaronder melden en bezwaar maken. PixKit kan inhoud of accounts beperken ter bescherming van de community. Verwijder je account in de instellingen of vraag ons om hulp."]
+    ]
+  },
+  "pl": {
+    "guidelines": [
+      "Zasady społeczności i polityka moderacji",
+      ["Cel forum", "PixKit służy do rozmów o programowaniu, tworzeniu oprogramowania, informatyce, AI, nauce i konstruktywnej wymianie opinii o projektach. Zachęcamy do technicznych dyskusji o bezpieczeństwie, przykładów kodu, rzeczowej krytyki i wyrażania odmiennych poglądów. Unikaj niezwiązanych z tematem sporów politycznych, konfliktów osobistych i niezamówionych reklam."],
+      ["Co jest zabronione", "Zabraniamy nękania, gróźb, ataków dyskryminacyjnych, treści jednoznacznie seksualnych lub wykorzystujących inne osoby, spamu, oszustw, nieuprawnionego ujawniania prywatnych danych, złośliwych linków lub celowo szkodliwego kodu, uporczywego zakłócania rozmów lub odchodzenia od tematu oraz nadużywania lub omijania zgłoszeń, głosowania i moderacji."],
+      ["Jak działa moderacja", "Limity częstotliwości, kontrole bezpieczeństwa i analiza AI pomagają wykrywać zagrożenia. Zewnętrzny dostawca OpenAI może otrzymać tekst potrzebny do oceny nękania, gróźb, nienawiści, treści seksualnych, przemocy i bezprawnych zamiarów. Automatyczna kontrola może przeoczyć szkodliwy wpis lub oznaczyć prawidłowy wpis techniczny. PixKit może wstrzymać, odrzucić, ukryć lub usunąć treść, ostrzec użytkownika, zawiesić lub trwale zablokować konto. Moderatorzy mogą zweryfikować i cofnąć decyzje automatyczne."],
+      ["Zgłoszenia i odwołania", "Użyj opcji zgłoszenia przy wpisie lub komentarzu. Jeśli ograniczono Twoją treść, sprawdź powód i skorzystaj z opcji odwołania, o ile jest dostępna. Bez dostępu do forum lub opcji wyślij nam e-mailem link lub identyfikator. Wyniki analizy i prywatne szczegóły zgłoszeń nie są publikowane."]
+    ],
+    "privacy": [
+      "Polityka prywatności platformy członkowskiej",
+      ["Konto i nauka", "Operatorem PixKit jest Nihon Essentials Hub G.K. Używamy identyfikatora konta, podanego e-maila, dostawcy logowania, nazwy wyświetlanej, dostępnego awatara, języka, statusu, dat aktywności i postępów do logowania, obsługi konta i synchronizacji. Supabase zapewnia uwierzytelnianie i bazę danych. Wybrany dostawca obsługuje logowanie. Niezbędne pliki cookie utrzymują sesję. Opcjonalną analitykę opisuje odrębna polityka plików cookie."],
+      ["Forum i bezpieczeństwo", "Opublikowane wpisy i komentarze są publiczne i opatrzone nazwą wyświetlaną autora. Przetwarzamy głosy, zgłoszenia, odwołania, decyzje moderacyjne i ograniczone zapisy przeciwdziałania nadużyciom. OpenAI, zewnętrzny dostawca moderacji, może przetwarzać tekst potrzebny do kontroli. Dostawcy mogą przetwarzać dane poza Japonią. Szczegóły zgłoszeń, dane prywatne i oceny są dostępne tylko dla uprawnionych osób i usług."],
+      ["Przechowywanie i wnioski", "Dane konta i postępów przechowujemy w zakresie potrzebnym do świadczenia usługi, a zapisy bezpieczeństwa na potrzeby kontroli, ochrony przed nadużyciami lub obowiązków prawnych. Kopie zapasowe wygasają osobno. Złóż wniosek o usunięcie konta i postępów w ustawieniach. W razie potrzeby może pozostać kontekst publicznego wątku i ograniczone zapisy bezpieczeństwa. Skontaktuj się z nami w sprawie dostępu, sprostowania, zaprzestania używania lub usunięcia danych zgodnie z japońską ustawą APPI, jeśli ma zastosowanie."]
+    ],
+    "terms": [
+      "Warunki korzystania z platformy członkowskiej",
+      ["Konto i dostęp do kursów", "Te warunki uzupełniają ogólne warunki PixKit. Odpowiadasz za działania na swoim koncie oraz ochronę danych logowania. Materiały podglądowe są publiczne. W tej fazie opublikowane lekcje dla członków są bezpłatne po zalogowaniu. Płatne subskrypcje, zakup kursów i płatności są wyłączone. Przyszłe oferty będą miały odrębne ceny i warunki."],
+      ["Udział w forum", "Publikuj tylko treści, które masz prawo udostępnić. Publikując je publicznie, zezwalasz PixKit na ich wyświetlanie w ramach działania forum. Przestrzegaj zasad społeczności, w tym procedur zgłaszania i odwołania. PixKit może ograniczać treści lub konta, aby chronić społeczność. Konto możesz usunąć w ustawieniach lub poprosić nas o pomoc."]
+    ]
+  },
+  "ru": {
+    "guidelines": [
+      "Правила сообщества и политика модерации",
+      ["Назначение форума", "PixKit посвящён программированию, разработке ПО, информатике, ИИ, обучению и конструктивному обсуждению проектов. Приветствуются технические обсуждения безопасности, примеры кода, уважительная критика и несогласие. Избегайте посторонних политических споров, личных конфликтов и навязчивой рекламы."],
+      ["Что запрещено", "Запрещены травля, угрозы, дискриминационные нападки, откровенные сексуальные материалы или эксплуатация, спам, мошенничество, раскрытие частных сведений без разрешения, вредоносные ссылки или намеренно вредный код, регулярные нарушения темы или порядка, а также злоупотребление жалобами, голосованием или модерацией и их обход."],
+      ["Как работает модерация", "Ограничения частоты, проверки безопасности и анализ с ИИ помогают выявлять риски. Внешний поставщик OpenAI может получать текст для оценки травли, угроз, ненависти, сексуальных материалов, насилия и противоправных намерений. Автоматические проверки могут пропускать вредный контент или ошибочно отмечать допустимые технические сообщения. PixKit может задержать, отклонить, скрыть или удалить контент, вынести предупреждение, временно приостановить или навсегда заблокировать аккаунт. Модераторы могут пересматривать и отменять автоматические решения."],
+      ["Жалобы и обжалование", "Используйте кнопку жалобы у публикации или комментария. Если ваш материал ограничен, прочитайте указанную причину и подайте апелляцию, если функция доступна. Если нет доступа к форуму или форме, пришлите ссылку или идентификатор по электронной почте. Оценки модерации и закрытые сведения о жалобах не публикуются."]
+    ],
+    "privacy": [
+      "Политика конфиденциальности платформы участников",
+      ["Аккаунт и обучение", "Платформой PixKit управляет Nihon Essentials Hub G.K. Мы используем ID аккаунта, предоставленный адрес электронной почты, провайдера входа, отображаемое имя, доступный аватар, язык, статус, даты активности и прогресс для входа, управления аккаунтом и синхронизации обучения. Supabase предоставляет аутентификацию и базу данных. Выбранный провайдер обрабатывает вход. Обязательные файлы cookie поддерживают сеанс. Дополнительная аналитика описана в отдельной политике cookie."],
+      ["Форум и безопасность", "Опубликованные сообщения и комментарии общедоступны с отображаемым именем автора. Для работы форума мы обрабатываем голоса, жалобы, апелляции, решения модерации и ограниченные сведения для предотвращения злоупотреблений. Внешний поставщик OpenAI может обрабатывать текст, нужный для проверки. Поставщики могут обрабатывать данные за пределами Японии. Данные аккаунта, оценки и детали жалоб доступны только уполномоченным лицам и сервисам."],
+      ["Хранение и запросы", "Мы храним данные аккаунта и прогресс столько, сколько нужно для оказания услуг, а записи безопасности — для проверки, предотвращения злоупотреблений или юридических целей. У резервных копий отдельный срок. Запросите удаление аккаунта и прогресса в настройках. При необходимости может остаться контекст публичной ветки и часть записей безопасности. Напишите нам для доступа, исправления, прекращения использования или удаления данных в применимых случаях по японскому закону о защите персональной информации (APPI)."]
+    ],
+    "terms": [
+      "Условия использования платформы участников",
+      ["Участие и доступ к курсам", "Эти условия дополняют общие условия PixKit. Вы отвечаете за активность аккаунта и безопасность данных входа. Ознакомительные материалы открыты всем. На этом этапе опубликованные уроки для участников бесплатны при наличии аккаунта. Платные подписки, покупка курсов и приём платежей отключены. Будущие платные предложения будут иметь отдельные цены и условия."],
+      ["Участие в форуме", "Публикуйте только материалы, которыми вы вправе делиться. Публичная публикация разрешает PixKit показывать материал для работы форума. Соблюдайте правила сообщества, включая порядок жалоб и обжалования. PixKit может ограничивать материалы или аккаунты для защиты сообщества. Удалите аккаунт в настройках или обратитесь к нам за помощью."]
+    ]
+  },
+  "uk": {
+    "guidelines": [
+      "Правила спільноти та політика модерації",
+      ["Призначення форуму", "PixKit присвячений програмуванню, розробці програмного забезпечення, інформатиці, ШІ, навчанню та конструктивному обговоренню проєктів. Вітаються технічні обговорення безпеки, приклади коду, поважна критика й незгода. Уникайте сторонніх політичних суперечок, особистих конфліктів і небажаної реклами."],
+      ["Що заборонено", "Заборонено переслідування, погрози, дискримінаційні напади, відверто сексуальні матеріали або експлуатацію, спам, шахрайство, розкриття приватних відомостей без дозволу, шкідливі посилання або навмисно шкідливий код, повторні порушення порядку або відхилення від теми та зловживання скаргами, голосуванням чи модерацією або їх обхід."],
+      ["Як працює модерація", "Обмеження частоти, перевірки безпеки й аналіз за допомогою ШІ допомагають виявляти ризики. Зовнішній постачальник OpenAI може отримувати текст для оцінки переслідування, погроз, ненависті, сексуального вмісту, насильства та протиправних намірів. Автоматичні перевірки можуть пропустити шкідливі дописи або помилково позначити правомірні технічні матеріали. PixKit може затримати, відхилити, приховати чи видалити вміст, попередити користувача, тимчасово або назавжди заблокувати обліковий запис. Модератори можуть переглянути й скасувати автоматичні рішення."],
+      ["Скарги й оскарження", "Скористайтеся кнопкою скарги біля допису чи коментаря. Якщо ваш матеріал обмежено, перевірте зазначену причину й подайте апеляцію, якщо функція доступна. За відсутності доступу до форуму чи форми надішліть нам посилання або ідентифікатор електронною поштою. Оцінки модерації та приватні подробиці скарг не публікуються."]
+    ],
+    "privacy": [
+      "Політика конфіденційності платформи учасників",
+      ["Обліковий запис і навчання", "PixKit працює під управлінням Nihon Essentials Hub G.K. Ми використовуємо ID, надану електронну адресу, постачальника входу, видиме ім’я, доступний аватар, мову, статус, дати активності та прогрес для входу, керування обліковим записом і синхронізації. Supabase надає автентифікацію та базу даних. Обраний постачальник обробляє вхід. Необхідні файли cookie підтримують сеанс. Необов’язкову аналітику описано в окремій політиці cookie."],
+      ["Форум і безпека", "Опубліковані дописи й коментарі є публічними та містять видиме ім’я автора. Для роботи форуму ми обробляємо голоси, скарги, апеляції, рішення модерації й обмежені дані для запобігання зловживанням. Зовнішній постачальник OpenAI може обробляти текст, потрібний для перевірки. Постачальники можуть обробляти дані за межами Японії. Доступ до приватних даних, подробиць скарг і оцінок мають лише уповноважені особи та служби."],
+      ["Зберігання та запити", "Ми зберігаємо дані запису й прогрес, доки вони потрібні для роботи сервісу, а записи безпеки — для перевірки, запобігання зловживанням або правових потреб. Резервні копії мають окремі строки. Подайте запит на видалення запису й прогресу в налаштуваннях. За потреби може зберігатися контекст публічного обговорення й обмежені записи безпеки. Зверніться до нас щодо доступу, виправлення, припинення використання чи видалення у випадках, передбачених японським законом про захист персональної інформації (APPI)."]
+    ],
+    "terms": [
+      "Умови користування платформою учасників",
+      ["Членство та доступ до курсів", "Ці умови доповнюють загальні умови PixKit. Ви відповідаєте за дії у своєму обліковому записі та безпеку даних входу. Ознайомчі матеріали публічні. На цьому етапі опубліковані уроки для учасників безоплатні за наявності облікового запису. Платні підписки, придбання курсів і платежі вимкнено. Майбутні платні пропозиції матимуть окремі ціни й умови."],
+      ["Участь у форумі", "Публікуйте лише те, чим маєте право ділитися. Публікуючи матеріал відкрито, ви дозволяєте PixKit показувати його для роботи форуму. Дотримуйтеся правил спільноти, включно з процедурами скарг та оскарження. PixKit може обмежувати вміст або облікові записи для захисту спільноти. Видаліть запис у налаштуваннях або зверніться до нас по допомогу."]
+    ]
+  },
+  "zh-cn": {
+    "guidelines": [
+      "社区准则与内容审核政策",
+      ["论坛的用途", "PixKit 用于交流编程、软件开发、计算机科学、人工智能、学习及各类技术项目。欢迎安全技术讨论、代码示例、尊重他人的批评和不同意见。请勿发表与主题无关的政治争论、个人纠纷或未经邀请的广告。"],
+      ["禁止的内容和行为", "禁止骚扰、威胁、歧视性攻击、露骨色情或剥削内容、垃圾信息、诈骗、未经授权披露私人信息、恶意链接或蓄意有害的代码、反复跑题或扰乱讨论，以及滥用或规避举报、投票和审核机制。"],
+      ["审核方式", "发布频率限制、安全检查和 AI 辅助分析可帮助发现风险。外部服务商 OpenAI 可能接收用于评估骚扰、威胁、仇恨、色情、暴力和违法意图所需的文本。自动检查可能漏过有害内容，也可能误判正常的技术帖子。PixKit 可暂缓、拒绝、隐藏或移除内容，发出警告，暂时或永久封禁账户。审核人员可以复核和撤销自动决定。"],
+      ["举报和申诉", "请通过帖子或评论旁的举报功能提交举报。内容受到限制时，请查看显示的原因，并在功能可用时提出申诉。无法访问论坛或相关功能时，请通过电子邮件发送链接或参考编号。审核分数和非公开举报详情不会公开。"]
+    ],
+    "privacy": [
+      "会员平台隐私政策",
+      ["账户和学习", "PixKit 由 Nihon Essentials Hub G.K. 运营。我们使用账户 ID、您提供的邮箱、登录服务商、显示名称、可用头像、语言、账户状态、活动时间及学习进度，用于身份验证、账户管理和跨设备同步。Supabase 提供身份验证和数据库服务，您选择的服务商处理登录。必要的会话 Cookie 用于维持登录。可选分析遵循独立的 Cookie 政策。"],
+      ["论坛和安全", "已发布的帖子与评论会连同作者显示名称公开。我们处理投票、举报、申诉、审核决定和有限的防滥用记录，以运营论坛和实施规则。外部审核服务商 OpenAI 可能处理检查所需文本。服务商可能在日本境外处理信息。只有获授权的人员或服务可访问举报详情、私人账户数据和审核分数。"],
+      ["保留和请求", "账户和学习数据会在提供服务所需期间保留。安全记录可能因复核、防止滥用或法律需要而保留，备份有独立的到期周期。您可以在账户设置申请删除账户和已保存进度。必要时，公开讨论的上下文和有限的安全记录可能保留。依据日本《个人信息保护法》（APPI）的适用条款，您可以联系我们请求查阅、更正、停止使用或删除。"]
+    ],
+    "terms": [
+      "会员平台使用条款",
+      ["会员和课程访问", "本条款补充 PixKit 的一般使用条款。您应对账户活动和登录凭据的安全负责。预览对所有访客开放。现阶段，拥有账户即可免费访问已发布的会员课程。付费订阅、课程购买和收款当前未启用。今后的付费项目将有单独的价格和条款。"],
+      ["参与社区", "只发布您有权分享的内容。公开发布即允许 PixKit 为运营论坛展示内容。请遵守社区准则和举报、申诉流程。PixKit 可为保护社区限制内容或账户。您可在账户设置删除账户，或联系我们获取帮助。"]
+    ]
+  },
+  "zh-tw": {
+    "guidelines": [
+      "社群守則與內容審核政策",
+      ["論壇用途", "PixKit 用於討論程式設計、軟體開發、資訊科學、人工智慧、學習及技術專案。歡迎資安技術討論、程式碼範例、尊重他人的批評和不同意見。請勿發表無關的政治爭論、私人糾紛或未經邀請的廣告。"],
+      ["禁止的內容和行為", "禁止騷擾、威脅、歧視性攻擊、露骨色情或剝削內容、垃圾訊息、詐騙、未經授權揭露私密資訊、惡意連結或刻意有害的程式碼、反覆離題或擾亂討論，以及濫用或規避檢舉、投票和審核機制。"],
+      ["審核方式", "發文頻率限制、安全檢查及 AI 輔助分析可協助辨識風險。外部供應商 OpenAI 可能接收評估騷擾、威脅、仇恨、色情、暴力和不法意圖所需的文字。自動檢查可能漏掉有害內容，也可能誤判正當的技術文章。PixKit 可暫緩、拒絕、隱藏或移除內容，發出警告，暫停或永久停用帳號。審核人員可以複查並撤銷自動判定。"],
+      ["檢舉和申訴", "使用文章或留言上的檢舉功能。內容受到限制時，請查看顯示的原因，並在功能可用時提出申訴。無法使用論壇或申訴功能時，請以電子郵件提供連結或參考編號。審核評分及非公開的檢舉詳情不會公布。"]
+    ],
+    "privacy": [
+      "會員平台隱私權政策",
+      ["帳號與學習", "PixKit 由 Nihon Essentials Hub G.K. 營運。我們使用帳號 ID、您提供的電子郵件、登入服務商、顯示名稱、可用的頭像、語言、帳號狀態、活動時間和學習進度，以驗證身分、管理帳號及跨裝置同步。Supabase 提供身分驗證與資料庫服務。您選擇的服務商處理登入。必要的工作階段 Cookie 會維持登入狀態。選用的分析服務依另行公布的 Cookie 政策辦理。"],
+      ["論壇與安全", "公開的文章及留言會連同作者顯示名稱供任何人閱讀。我們處理投票、檢舉、申訴、審核決定及有限的防濫用紀錄，以營運論壇並落實守則。外部審核服務商 OpenAI 可能處理審核所需文字。服務商可能在日本境外處理資訊。檢舉詳情、非公開帳號資料及審核評分僅供獲授權者存取。"],
+      ["保存與請求", "我們在提供服務所需期間保存帳號及進度資料，並為複查、防範濫用或法律需要保留安全紀錄。備份有獨立的到期週期。您可在帳號設定中申請刪除帳號及已保存的進度。必要時可能保留公開討論的上下文和有限的安全紀錄。依日本《個人資訊保護法》（APPI）的適用規定，您可聯絡我們，請求查閱、更正、停止利用或刪除資料。"]
+    ],
+    "terms": [
+      "會員平台使用條款",
+      ["會員及課程存取", "本條款補充 PixKit 一般使用條款。您應對帳號活動及登入憑證安全負責。預覽向所有訪客開放。現階段，註冊帳號即可免費使用已發布的會員課程。付費訂閱、購買課程和收款目前停用。未來的付費項目將另訂價格和條款。"],
+      ["參與論壇", "請只發布您有權分享的內容。公開發布即同意 PixKit 為營運論壇而顯示內容。請遵循社群守則，包括檢舉及申訴流程。PixKit 得為保護社群限制內容或帳號。您可在帳號設定中刪除帳號，或聯絡我們取得協助。"]
+    ]
+  },
+  "ko": {
+    "guidelines": [
+      "커뮤니티 가이드라인 및 운영 정책",
+      ["포럼의 목적", "PixKit은 프로그래밍, 소프트웨어 개발, 컴퓨터 과학, AI, 학습과 기술 프로젝트에 대한 건설적인 토론을 위한 공간입니다. 보안 기술 토론, 코드 예시, 존중하는 비판과 이견을 환영합니다. 주제와 무관한 정치 논쟁, 개인적인 다툼, 요청받지 않은 광고는 삼가 주세요."],
+      ["금지 사항", "괴롭힘, 위협, 차별적 공격, 노골적인 성적 또는 착취성 콘텐츠, 스팸, 사기, 사적 정보의 무단 공개, 악성 링크 또는 의도적으로 해로운 코드, 반복적인 주제 이탈이나 방해, 신고·투표·운영 절차의 악용 또는 우회를 금지합니다."],
+      ["운영 방식", "게시 빈도 제한, 보안 검사 및 AI 분석은 위험을 발견하는 데 도움이 됩니다. 외부 제공업체 OpenAI는 괴롭힘, 위협, 혐오, 성적 콘텐츠, 폭력, 불법 의도를 평가하는 데 필요한 텍스트를 받을 수 있습니다. 자동 검사는 유해 콘텐츠를 놓치거나 적법한 기술 게시물을 잘못 표시할 수 있습니다. PixKit은 보류, 거절, 숨김, 삭제, 경고, 일시 정지 또는 영구 차단을 할 수 있습니다. 운영진은 자동 결정을 검토하고 번복할 수 있습니다."],
+      ["신고 및 이의 제기", "게시물이나 댓글에 있는 신고 기능을 이용하세요. 본인 콘텐츠가 제한되면 표시된 사유를 확인하고, 가능한 경우 이의를 제기하세요. 포럼이나 해당 기능에 접근할 수 없다면 이메일로 링크나 참조 정보를 보내 주세요. 운영 점수와 비공개 신고 세부 사항은 공개하지 않습니다."]
+    ],
+    "privacy": [
+      "회원 플랫폼 개인정보 처리방침",
+      ["계정 및 학습 데이터", "Nihon Essentials Hub G.K.가 PixKit을 운영합니다. 계정 ID, 제공한 이메일 주소, 로그인 제공업체, 표시 이름, 사용 가능한 아바타, 언어, 상태, 활동 시각 및 학습 진도를 인증, 계정 관리 및 기기 간 동기화에 사용합니다. Supabase는 인증과 데이터베이스를 제공하며, 선택한 제공업체가 로그인을 처리합니다. 필수 세션 쿠키로 로그인 상태를 유지합니다. 선택적 분석은 별도의 쿠키 정책을 따릅니다."],
+      ["포럼과 안전", "공개된 게시물과 댓글에는 작성자의 표시 이름이 함께 표시됩니다. 포럼 운영과 규칙 적용을 위해 투표, 신고, 이의 제기, 운영 결정과 제한된 악용 방지 기록을 처리합니다. 외부 운영 지원 제공업체 OpenAI는 검사에 필요한 텍스트를 처리할 수 있습니다. 제공업체는 일본 밖에서 정보를 처리할 수 있습니다. 신고 세부 정보, 비공개 계정 데이터와 운영 점수에는 권한이 있는 경우만 접근할 수 있습니다."],
+      ["보관 및 요청", "계정과 진도 데이터는 서비스 제공에 필요한 기간 보관합니다. 안전 기록은 검토, 악용 방지 또는 법적 필요에 따라 보관하며, 백업에는 별도 만료 기간이 적용됩니다. 계정 설정에서 계정과 저장한 진도의 삭제를 요청할 수 있습니다. 필요한 경우 공개 글타래의 맥락과 제한된 안전 기록은 남을 수 있습니다. 일본 개인정보보호법(APPI)이 적용되는 경우 열람, 정정, 이용 중지 또는 삭제를 요청하려면 문의해 주세요."]
+    ],
+    "terms": [
+      "회원 플랫폼 이용약관",
+      ["회원과 강좌 이용", "이 약관은 PixKit의 일반 이용약관을 보완합니다. 계정 활동 및 로그인 정보의 보안은 이용자의 책임입니다. 미리보기는 공개됩니다. 현 단계에서 공개된 회원 레슨은 계정이 있으면 무료입니다. 유료 구독, 강좌 구매 및 결제는 현재 비활성화되어 있습니다. 향후 유료 서비스의 요금과 조건은 별도로 정합니다."],
+      ["커뮤니티 참여", "공유할 권한이 있는 내용만 게시하세요. 공개 게시하면 PixKit이 포럼 운영을 위해 해당 내용을 표시할 수 있습니다. 신고와 이의 제기를 포함한 커뮤니티 가이드라인을 준수하세요. PixKit은 커뮤니티 보호를 위해 콘텐츠나 계정을 제한할 수 있습니다. 계정 설정에서 삭제하거나 도움이 필요하면 문의하세요."]
+    ]
+  },
+  "ar": {
+    "guidelines": [
+      "إرشادات المجتمع وسياسة الإشراف",
+      ["الغرض من المنتدى", "يخصص PixKit للبرمجة وتطوير البرمجيات وعلوم الحاسوب والذكاء الاصطناعي والتعلم والنقاش البنّاء حول المشاريع. نرحب بالنقاشات التقنية في الأمن وأمثلة الشفرة والنقد المحترم والاختلاف في الرأي. تجنب الجدل السياسي الخارج عن الموضوع والنزاعات الشخصية والإعلانات غير المطلوبة."],
+      ["ما نحظره", "يحظر التحرش والتهديد والهجمات التمييزية والمحتوى الجنسي الصريح أو الاستغلالي والرسائل المزعجة والاحتيال وكشف المعلومات الخاصة دون إذن والروابط الخبيثة أو الشفرة المؤذية عمداً وتكرار الخروج عن الموضوع أو تعطيل النقاش وإساءة استخدام آليات الإبلاغ والتصويت والإشراف أو التحايل عليها."],
+      ["كيف يعمل الإشراف", "تساعد حدود معدل النشر وفحوص الأمان والتحليل بالذكاء الاصطناعي في رصد المخاطر. قد تتلقى OpenAI، وهي جهة خارجية، النص اللازم لتقييم التحرش والتهديد والكراهية والمحتوى الجنسي والعنف والنوايا غير المشروعة. قد تفوت الفحوص الآلية محتوى ضاراً أو تصنف منشوراً تقنياً مشروعاً بالخطأ. يمكن لـ PixKit تعليق نشر المحتوى أو رفضه أو إخفاؤه أو حذفه، أو إنذار الحساب أو تعليقه مؤقتاً أو حظره نهائياً. يمكن للمشرفين مراجعة القرارات الآلية وإلغاؤها."],
+      ["الإبلاغ والاستئناف", "استخدم خيار الإبلاغ عن منشور أو تعليق. إذا قُيّد محتواك، فاطلع على السبب المعروض واستخدم خيار الاستئناف عند توفره. إذا تعذر الوصول إلى المنتدى أو الخيار، فأرسل الرابط أو المرجع بالبريد الإلكتروني. لا ننشر درجات الإشراف أو تفاصيل البلاغات الخاصة."]
+    ],
+    "privacy": [
+      "سياسة خصوصية منصة الأعضاء",
+      ["الحساب والتعلم", "تدير Nihon Essentials Hub G.K. منصة PixKit. نستخدم معرّف الحساب والبريد الإلكتروني إن قُدم ومزود تسجيل الدخول والاسم الظاهر والصورة الرمزية إن توفرت واللغة وحالة الحساب وتواريخ النشاط وتقدم التعلم للمصادقة وإدارة الحساب والمزامنة بين الأجهزة. توفر Supabase المصادقة وقاعدة البيانات، ويعالج المزود المختار تسجيل دخولك. تحفظ ملفات تعريف ارتباط الجلسة الضرورية تسجيل دخولك. تتبع التحليلات الاختيارية سياسة ملفات تعريف الارتباط المنفصلة."],
+      ["المنتدى والسلامة", "يمكن للجميع قراءة المنشورات والتعليقات العامة مع الاسم الظاهر لصاحبها. نعالج الأصوات والبلاغات والاستئنافات وقرارات الإشراف وسجلات محدودة لمكافحة الإساءة لتشغيل المنتدى وتطبيق قواعده. قد تعالج OpenAI، جهة الإشراف الخارجية، النص اللازم للفحص. قد يعالج مزودو الخدمات المعلومات خارج اليابان. يقتصر الوصول إلى تفاصيل البلاغات وبيانات الحساب الخاصة ودرجات الإشراف على الجهات المخولة."],
+      ["الاحتفاظ والطلبات", "نحتفظ ببيانات الحساب والتقدم ما دامت لازمة للخدمة وبسجلات السلامة للمراجعة أو منع الإساءة أو للأغراض القانونية. تنتهي صلاحية النسخ الاحتياطية وفق دورة منفصلة. اطلب حذف الحساب والتقدم المحفوظ من إعدادات الحساب. قد تبقى بعض معلومات سياق النقاش العام وسجلات السلامة المحدودة عند الضرورة. تواصل معنا لطلب الوصول أو التصحيح أو وقف الاستخدام أو الحذف عند انطباق قانون حماية المعلومات الشخصية الياباني (APPI)."]
+    ],
+    "terms": [
+      "شروط استخدام منصة الأعضاء",
+      ["العضوية والوصول إلى الدروس", "تكمل هذه الشروط شروط PixKit العامة. أنت مسؤول عن النشاط في حسابك وعن حماية بيانات الدخول. المعاينات متاحة للجميع. الدروس المنشورة للأعضاء مجانية بحساب في هذه المرحلة. الاشتراكات المدفوعة وشراء الدورات وتحصيل المدفوعات معطلة حالياً. ستكون للعروض المدفوعة المستقبلية أسعار وشروط منفصلة."],
+      ["المشاركة في المنتدى", "انشر فقط ما يحق لك مشاركته. عندما تنشر علناً، تسمح لـ PixKit بعرض المحتوى لتشغيل المنتدى. التزم بإرشادات المجتمع وإجراءات الإبلاغ والاستئناف. يمكن لـ PixKit تقييد المحتوى أو الحسابات لحماية المجتمع. احذف حسابك من الإعدادات أو تواصل معنا للمساعدة."]
+    ]
+  },
+  "hi": {
+    "guidelines": [
+      "समुदाय दिशानिर्देश और मॉडरेशन नीति",
+      ["फ़ोरम का उद्देश्य", "PixKit प्रोग्रामिंग, सॉफ़्टवेयर विकास, कंप्यूटर विज्ञान, AI, सीखने और परियोजनाओं पर रचनात्मक चर्चा के लिए है। तकनीकी सुरक्षा पर चर्चा, कोड के उदाहरण, सम्मानजनक आलोचना और असहमति का स्वागत है। विषय से बाहर राजनीतिक विवाद, निजी झगड़े और अनचाहे प्रचार से बचें।"],
+      ["प्रतिबंधित सामग्री और व्यवहार", "उत्पीड़न, धमकियाँ, भेदभावपूर्ण हमले, स्पष्ट यौन या शोषणकारी सामग्री, स्पैम, धोखाधड़ी, बिना अनुमति निजी जानकारी प्रकाशित करना, दुर्भावनापूर्ण लिंक या जानबूझकर हानिकारक कोड, बार-बार विषय से भटकना या चर्चा बाधित करना और रिपोर्टिंग, मतदान या मॉडरेशन का दुरुपयोग या उनसे बच निकलने की कोशिश निषिद्ध है।"],
+      ["मॉडरेशन कैसे होता है", "पोस्ट की आवृत्ति की सीमा, सुरक्षा जाँच और AI विश्लेषण जोखिम पहचानने में मदद करते हैं। बाहरी प्रदाता OpenAI को उत्पीड़न, धमकी, नफ़रत, यौन सामग्री, हिंसा और अवैध मंशा का आकलन करने के लिए आवश्यक पाठ मिल सकता है। स्वचालित जाँच हानिकारक सामग्री छोड़ सकती है या उचित तकनीकी पोस्ट पर ग़लत निशान लगा सकती है। PixKit सामग्री रोक, अस्वीकार, छिपा या हटा सकता है और चेतावनी, अस्थायी निलंबन या स्थायी प्रतिबंध लगा सकता है। मॉडरेटर स्वचालित निर्णयों की समीक्षा कर उन्हें पलट सकते हैं।"],
+      ["रिपोर्ट और अपील", "किसी पोस्ट या टिप्पणी की रिपोर्ट करने के लिए उसका रिपोर्ट विकल्प उपयोग करें। आपकी सामग्री पर रोक लगे तो दिखाया गया कारण देखें और उपलब्ध होने पर अपील करें। फ़ोरम या अपील विकल्प तक पहुँच न हो तो लिंक या संदर्भ हमें ईमेल करें। मॉडरेशन स्कोर और रिपोर्ट के निजी विवरण सार्वजनिक नहीं किए जाते।"]
+    ],
+    "privacy": [
+      "सदस्य मंच की गोपनीयता नीति",
+      ["खाता और सीखने का डेटा", "PixKit का संचालन Nihon Essentials Hub G.K. करता है। प्रमाणीकरण, खाता प्रबंधन और अलग-अलग डिवाइसों में प्रगति समन्वित करने के लिए हम खाता ID, दिया गया ईमेल, साइन-इन प्रदाता, प्रदर्शित नाम, उपलब्ध अवतार, भाषा, खाते की स्थिति, गतिविधि की तारीखें और प्रगति का इस्तेमाल करते हैं। Supabase प्रमाणीकरण और डेटाबेस सेवाएँ देता है। चुना गया प्रदाता साइन-इन की प्रक्रिया संभालता है। आवश्यक सत्र कुकी आपको साइन इन रखती हैं। वैकल्पिक विश्लेषण अलग कुकी नीति के अधीन है।"],
+      ["फ़ोरम और सुरक्षा", "सार्वजनिक पोस्ट और टिप्पणियाँ लेखक के प्रदर्शित नाम के साथ पढ़ी जा सकती हैं। फ़ोरम और उसके नियमों के संचालन के लिए हम वोट, रिपोर्ट, अपील, मॉडरेशन निर्णय और दुरुपयोग रोकने के सीमित रिकॉर्ड संसाधित करते हैं। बाहरी प्रदाता OpenAI जाँच के लिए आवश्यक पाठ संसाधित कर सकता है। सेवा प्रदाता जापान के बाहर भी जानकारी संसाधित कर सकते हैं। निजी खाता डेटा, रिपोर्ट विवरण और मॉडरेशन स्कोर तक पहुँच अधिकृत पक्षों तक सीमित है।"],
+      ["डेटा रखने की अवधि और अनुरोध", "खाते और प्रगति का डेटा सेवा के लिए आवश्यक समय तक रखा जाता है। सुरक्षा रिकॉर्ड समीक्षा, दुरुपयोग रोकने या कानूनी आवश्यकताओं के लिए रखे जाते हैं। बैकअप की अलग समय-सीमा है। खाता और सहेजी गई प्रगति हटाने का अनुरोध खाता सेटिंग में करें। ज़रूरत होने पर सार्वजनिक चर्चा का संदर्भ और सीमित सुरक्षा रिकॉर्ड बने रह सकते हैं। जापान के व्यक्तिगत जानकारी संरक्षण अधिनियम (APPI) के लागू होने पर पहुँच, सुधार, इस्तेमाल रोकने या हटाने के लिए हमसे संपर्क करें।"]
+    ],
+    "terms": [
+      "सदस्य मंच के उपयोग की शर्तें",
+      ["सदस्यता और पाठ्यक्रम तक पहुँच", "ये शर्तें PixKit की सामान्य उपयोग शर्तों की पूरक हैं। अपने खाते से हुई गतिविधि और साइन-इन विवरण की सुरक्षा के लिए आप ज़िम्मेदार हैं। पूर्वावलोकन सार्वजनिक हैं। इस चरण में प्रकाशित सदस्य पाठ खाते के साथ मुफ़्त हैं। सशुल्क सदस्यताएँ, पाठ्यक्रम की खरीद और भुगतान अभी बंद हैं। भविष्य के सशुल्क प्रस्तावों की अलग कीमत और शर्तें होंगी।"],
+      ["फ़ोरम में भागीदारी", "केवल वही सामग्री पोस्ट करें जिसे साझा करने की अनुमति है। सार्वजनिक रूप से पोस्ट करने पर आप PixKit को फ़ोरम चलाने के लिए सामग्री दिखाने की अनुमति देते हैं। रिपोर्ट और अपील सहित समुदाय दिशानिर्देशों का पालन करें। समुदाय की सुरक्षा के लिए PixKit सामग्री या खाते सीमित कर सकता है। सेटिंग से खाता हटाएँ या मदद के लिए हमसे संपर्क करें।"]
+    ]
+  },
+  "id": {
+    "guidelines": [
+      "Pedoman Komunitas dan Kebijakan Moderasi",
+      ["Tujuan forum", "PixKit ditujukan untuk pemrograman, pengembangan perangkat lunak, ilmu komputer, AI, pembelajaran, dan diskusi proyek yang konstruktif. Pembahasan keamanan teknis, contoh kode, kritik yang sopan, dan perbedaan pendapat dipersilakan. Hindari perdebatan politik yang tidak relevan, konflik pribadi, dan promosi yang tidak diminta."],
+      ["Yang dilarang", "Pelecehan, ancaman, serangan diskriminatif, konten seksual eksplisit atau eksploitatif, spam, penipuan, pengungkapan informasi pribadi tanpa izin, tautan jahat atau kode yang sengaja merugikan, gangguan atau penyimpangan topik berulang, serta penyalahgunaan atau pengelakan mekanisme laporan, suara, atau moderasi dilarang."],
+      ["Cara kerja moderasi", "Batas frekuensi, pemeriksaan keamanan, dan analisis AI membantu mendeteksi risiko. OpenAI, penyedia eksternal, dapat menerima teks yang diperlukan untuk menilai pelecehan, ancaman, kebencian, konten seksual, kekerasan, dan niat melanggar hukum. Pemeriksaan otomatis bisa melewatkan materi berbahaya atau keliru menandai posting teknis yang sah. PixKit dapat menahan, menolak, menyembunyikan, atau menghapus konten, memperingatkan, menangguhkan sementara, atau memblokir permanen akun. Moderator dapat meninjau dan membatalkan keputusan otomatis."],
+      ["Pelaporan dan banding", "Gunakan opsi lapor pada posting atau komentar. Jika konten Anda dibatasi, lihat alasannya dan ajukan banding jika tersedia. Jika tidak dapat mengakses forum atau opsi banding, kirim tautan atau referensi melalui email. Skor moderasi dan rincian laporan pribadi tidak dipublikasikan."]
+    ],
+    "privacy": [
+      "Kebijakan Privasi Platform Anggota",
+      ["Akun dan data belajar", "PixKit dioperasikan oleh Nihon Essentials Hub G.K. Kami menggunakan ID akun, email yang diberikan, penyedia login, nama tampilan, avatar jika ada, bahasa, status, waktu aktivitas, dan kemajuan belajar untuk autentikasi, pengelolaan akun, dan sinkronisasi antargawai. Supabase menyediakan autentikasi dan basis data. Penyedia yang dipilih memproses login. Cookie sesi penting mempertahankan login. Analitik opsional mengikuti kebijakan cookie terpisah."],
+      ["Forum dan keamanan", "Posting dan komentar publik dapat dibaca bersama nama tampilan penulis. Kami memproses suara, laporan, banding, keputusan moderasi, dan catatan terbatas untuk mencegah penyalahgunaan. OpenAI, penyedia moderasi eksternal, dapat memproses teks yang diperlukan untuk pemeriksaan. Penyedia layanan dapat memproses data di luar Jepang. Akses ke rincian laporan, data akun pribadi, dan skor moderasi dibatasi untuk pihak berwenang."],
+      ["Penyimpanan dan permintaan", "Kami menyimpan data akun dan kemajuan selama dibutuhkan untuk layanan. Catatan keamanan disimpan untuk peninjauan, pencegahan penyalahgunaan, atau keperluan hukum. Cadangan memiliki masa berlaku tersendiri. Minta penghapusan akun dan kemajuan melalui pengaturan akun. Konteks diskusi publik dan catatan keamanan terbatas dapat tetap ada jika diperlukan. Hubungi kami untuk meminta akses, perbaikan, penghentian penggunaan, atau penghapusan sesuai Undang-Undang Perlindungan Informasi Pribadi Jepang (APPI) jika berlaku."]
+    ],
+    "terms": [
+      "Ketentuan Penggunaan Platform Anggota",
+      ["Keanggotaan dan akses kursus", "Ketentuan ini melengkapi Ketentuan Penggunaan umum PixKit. Anda bertanggung jawab atas aktivitas akun dan keamanan kredensial. Pratinjau tersedia untuk umum. Pada tahap ini, pelajaran anggota yang diterbitkan gratis dengan akun. Langganan berbayar, pembelian kursus, dan pembayaran belum diaktifkan. Penawaran berbayar di masa mendatang akan memiliki harga dan ketentuan tersendiri."],
+      ["Partisipasi di forum", "Bagikan hanya konten yang boleh Anda bagikan. Dengan menerbitkannya secara publik, Anda mengizinkan PixKit menampilkannya untuk menjalankan forum. Ikuti pedoman komunitas, termasuk prosedur laporan dan banding. PixKit dapat membatasi konten atau akun demi melindungi komunitas. Hapus akun melalui pengaturan atau hubungi kami untuk bantuan."]
+    ]
+  },
+  "tr": {
+    "guidelines": [
+      "Topluluk Kuralları ve Moderasyon Politikası",
+      ["Forumun amacı", "PixKit programlama, yazılım geliştirme, bilgisayar bilimi, yapay zekâ, öğrenme ve yapıcı proje tartışmaları içindir. Teknik güvenlik tartışmaları, kod örnekleri, saygılı eleştiriler ve görüş ayrılıkları memnuniyetle karşılanır. Konu dışı siyasi tartışmalardan, kişisel anlaşmazlıklardan ve istenmeyen tanıtımlardan kaçının."],
+      ["Yasak olanlar", "Taciz, tehdit, ayrımcı saldırılar, açık cinsel veya istismar içeren materyal, spam, dolandırıcılık, özel bilgilerin izinsiz açıklanması, kötü amaçlı bağlantılar veya bilerek zararlı kod, tekrar eden konu dışı veya bozucu davranışlar ve bildirim, oylama veya moderasyon sistemlerini kötüye kullanma veya atlatma yasaktır."],
+      ["Moderasyonun işleyişi", "Gönderi sıklığı sınırları, güvenlik denetimleri ve yapay zekâ analizi riskleri belirlemeye yardımcı olur. Dış sağlayıcı OpenAI taciz, tehdit, nefret, cinsel içerik, şiddet ve yasa dışı niyeti değerlendirmek için gereken metni alabilir. Otomatik kontroller zararlı içeriği kaçırabilir veya meşru teknik gönderileri yanlış işaretleyebilir. PixKit içeriği bekletebilir, reddedebilir, gizleyebilir veya kaldırabilir. Hesabı da uyarabilir, geçici olarak askıya alabilir veya kalıcı olarak yasaklayabilir. Moderatörler otomatik kararları inceleyip geri alabilir."],
+      ["Bildirim ve itiraz", "Gönderi veya yorumun bildirim seçeneğini kullanın. İçeriğiniz kısıtlanırsa gösterilen gerekçeyi inceleyip seçenek mevcutsa itiraz edin. Foruma veya itiraz seçeneğine erişemiyorsanız bağlantıyı ya da referansı e-postayla iletin. Moderasyon puanları ve gizli bildirim ayrıntıları yayımlanmaz."]
+    ],
+    "privacy": [
+      "Üye Platformu Gizlilik Politikası",
+      ["Hesap ve öğrenim verileri", "PixKit, Nihon Essentials Hub G.K. tarafından işletilir. Hesap kimliğini, verilen e-posta adresini, oturum açma sağlayıcısını, görünen adı, varsa avatarı, dili, hesap durumunu, etkinlik tarihlerini ve ders ilerlemesini kimlik doğrulama, hesap yönetimi ve cihazlar arası eşitleme için kullanırız. Supabase kimlik doğrulama ve veri tabanı sağlar. Seçtiğiniz sağlayıcı oturum açmayı işler. Zorunlu oturum çerezleri girişinizi korur. İsteğe bağlı analiz için ayrı çerez politikası geçerlidir."],
+      ["Forum ve güvenlik", "Yayımlanan gönderi ve yorumlar yazarın görünen adıyla birlikte herkese açıktır. Forumu işletmek için oyları, bildirimleri, itirazları, moderasyon kararlarını ve sınırlı kötüye kullanım önleme kayıtlarını işleriz. Dış moderasyon sağlayıcısı OpenAI gerekli metni işleyebilir. Hizmet sağlayıcıları bilgileri Japonya dışında işleyebilir. Bildirim ayrıntılarına, özel hesap verilerine ve moderasyon puanlarına yalnızca yetkili kişiler ve hizmetler erişebilir."],
+      ["Saklama ve talepler", "Hesap ve ilerleme bilgilerini hizmet için gerektiği sürece saklarız. Güvenlik kayıtları inceleme, kötüye kullanımı önleme veya yasal ihtiyaçlar için saklanabilir. Yedeklerin ayrı süreleri vardır. Hesabınızın ve ilerlemenizin silinmesini ayarlardan isteyin. Gerektiğinde herkese açık konuşmanın bağlamı ve sınırlı güvenlik kayıtları kalabilir. Japon Kişisel Bilgilerin Korunması Yasası (APPI) kapsamında uygulanabildiği ölçüde erişim, düzeltme, kullanımı durdurma veya silme için bizimle iletişime geçin."]
+    ],
+    "terms": [
+      "Üye Platformu Kullanım Koşulları",
+      ["Üyelik ve kurs erişimi", "Bu koşullar PixKit genel kullanım koşullarını tamamlar. Hesabınızdaki etkinliklerden ve giriş bilgilerinizin güvenliğinden siz sorumlusunuz. Önizlemeler herkese açıktır. Bu aşamada yayımlanan üye dersleri hesapla ücretsizdir. Ücretli abonelikler, kurs satın alma ve ödeme alma şu anda devre dışıdır. Gelecekteki ücretli tekliflerin ayrı fiyat ve koşulları olacaktır."],
+      ["Foruma katılım", "Yalnızca paylaşma hakkınız olan içerikleri gönderin. Herkese açık paylaşım, PixKit'in içeriği forumun çalışması için göstermesine izin verir. Bildirim ve itiraz yöntemleri dâhil topluluk kurallarına uyun. PixKit topluluğu korumak için içeriği veya hesapları kısıtlayabilir. Hesabınızı ayarlardan silin veya yardım için bize ulaşın."]
+    ]
+  }
+}

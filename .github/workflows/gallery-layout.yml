@@ -1,0 +1,139 @@
+name: Validate PixKit site
+
+on:
+  push:
+    branches: [main, 'work/**']
+    paths:
+      - 'assets/css/**'
+      - 'assets/js/**'
+      - 'assets/apps/**'
+      - 'data/apps.json'
+      - 'data/media.json'
+      - 'data/i18n/**'
+      - 'tools/**'
+      - 'platform/**'
+      - 'tests/**'
+      - '**/*.html'
+      - 'robots.txt'
+      - 'sitemap.xml'
+      - '.github/workflows/gallery-layout.yml'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: gallery-layout-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  layout:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate source and deterministic generation
+        run: |
+          for file in assets/js/*.js tests/*.cjs; do node --check "$file"; done
+          python3 tools/build_site.py
+          git diff --exit-code -- '*.html' sitemap.xml robots.txt
+          python3 -m unittest discover -s tests -v
+          node --test tests/*.test.cjs
+      - name: Audit public source and reachable Git history
+        run: |
+          archive="$RUNNER_TEMP/gitleaks.tar.gz"
+          curl --fail --silent --show-error --location --retry 3 \
+            https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_linux_x64.tar.gz \
+            --output "$archive"
+          echo "551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb  $archive" | sha256sum -c -
+          tar --no-same-owner -xzf "$archive" -C "$RUNNER_TEMP" gitleaks
+          "$RUNNER_TEMP/gitleaks" dir --redact=100 --no-banner .
+          "$RUNNER_TEMP/gitleaks" git --redact=100 --no-banner --log-opts='--all --full-history' .
+      - name: Verify member platform and migrations
+        env:
+          PIXKIT_REQUIRE_GATEWAY_TESTS: '1'
+        run: |
+          if ! php -r 'exit(defined("CURLOPT_UNIX_SOCKET_PATH") ? 0 : 1);'; then
+            sudo apt-get update
+            sudo apt-get install -y php-cli php-curl
+          fi
+          php -l platform/deploy/liquid-web/index.php
+          bash -n platform/deploy/liquid-web/activate-mariadb.sh
+          bash -n platform/deploy/liquid-web/pull-release.sh
+          bash -n platform/deploy/liquid-web/upgrade-release.sh
+          bash -n platform/deploy/liquid-web/configure-smtp.sh
+          test -z "$(git ls-files '*.md' '*.mdx' '*.rst' '*.adoc' '*WORK_PROGRESS*' '*MANIFEST*')"
+          npm ci --prefix platform --ignore-scripts
+          npm test --prefix platform
+          npm run --prefix platform test:db
+          PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s platform/content -p 'test_*.py'
+      - name: Verify accounts against MariaDB 10.5.27
+        run: |
+          export MARIADB_ROOT_PASSWORD=$(openssl rand -hex 24)
+          export MARIADB_PASSWORD=$(openssl rand -hex 24)
+          export MARIADB_USER=pixkit_test MARIADB_DATABASE=pixkit_test
+          container=$(docker run --detach --publish 127.0.0.1::3306 \
+            -e MARIADB_ROOT_PASSWORD -e MARIADB_PASSWORD -e MARIADB_USER -e MARIADB_DATABASE \
+            mariadb:10.5.27-focal)
+          trap 'docker rm -f "$container" >/dev/null' EXIT
+          ready() {
+            docker exec "$container" sh -c 'MYSQL_PWD="$MARIADB_PASSWORD" mariadb \
+              --protocol=tcp -h 127.0.0.1 -u "$MARIADB_USER" "$MARIADB_DATABASE" -e "SELECT 1"' \
+              >/dev/null 2>&1
+          }
+          for attempt in {1..45}; do
+            if ready; then break; fi
+            sleep 2
+          done
+          ready
+          docker exec -i "$container" sh -c 'MYSQL_PWD="$MARIADB_ROOT_PASSWORD" mariadb -u root' <<'SQL'
+          CREATE DATABASE pixkit_email_test;
+          CREATE DATABASE pixkit_flow_test;
+          GRANT ALL ON pixkit_email_test.* TO 'pixkit_test'@'%';
+          GRANT ALL ON pixkit_flow_test.* TO 'pixkit_test'@'%';
+          SQL
+          port=$(docker port "$container" 3306/tcp)
+          export PIXKIT_TEST_DB_PORT="${port##*:}" PIXKIT_TEST_DB_USER="$MARIADB_USER"
+          export PIXKIT_TEST_DB_PASSWORD="$MARIADB_PASSWORD" PIXKIT_TEST_DB_NAME="$MARIADB_DATABASE"
+          export PIXKIT_TEST_EMAIL_DB_NAME=pixkit_email_test
+          node --test platform/test/mariadb.test.mjs platform/test/email-auth.test.mjs platform/test/profile.test.mjs
+          PIXKIT_TEST_FLOW_DB_NAME=pixkit_flow_test node --test platform/test/account-flow.test.mjs
+      - name: Install pinned browser test engines
+        run: |
+          npm install --prefix "$RUNNER_TEMP/gallery-browser-tests" --no-package-lock --no-save playwright@1.62.1
+          "$RUNNER_TEMP/gallery-browser-tests/node_modules/.bin/playwright" install --with-deps chromium firefox
+      - name: Verify member portal in Chromium
+        env:
+          NODE_PATH: ${{ runner.temp }}/gallery-browser-tests/node_modules
+        run: |
+          node platform/ui/browser-smoke.mjs
+          node platform/community-ui/browser_community.cjs
+      - name: Verify confirmation links in Chromium and Firefox
+        env:
+          NODE_PATH: ${{ runner.temp }}/gallery-browser-tests/node_modules
+        run: node platform/ui/browser-confirmation.mjs
+      - name: Verify native sign-out in Chromium and Firefox
+        env:
+          NODE_PATH: ${{ runner.temp }}/gallery-browser-tests/node_modules
+        run: node platform/ui/browser-logout.mjs
+      - name: Verify Analytics consent in Chromium and Firefox
+        env:
+          NODE_PATH: ${{ runner.temp }}/gallery-browser-tests/node_modules
+        run: node tests/browser_analytics_consent.cjs
+      - name: Verify gallery image alignment
+        env:
+          NODE_PATH: ${{ runner.temp }}/gallery-browser-tests/node_modules
+          BROWSER_TEST_ARTIFACTS: ${{ runner.temp }}/gallery-browser-artifacts
+        run: node tests/browser_gallery_layout.cjs
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gallery-layout-screenshots
+          path: ${{ runner.temp }}/gallery-browser-artifacts
+          if-no-files-found: ignore
+          retention-days: 3

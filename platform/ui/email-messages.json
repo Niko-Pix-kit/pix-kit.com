@@ -1,0 +1,173 @@
+{
+  "en": {
+    "subject": "Confirm your Pix-kit account",
+    "title": "Confirm my email",
+    "instruction": "Open this secure link, then confirm your request on Pix-kit.",
+    "expiry": "This link expires in 30 minutes and can be used once.",
+    "ignore": "If you did not request this email, you can ignore it.",
+    "resetSubject": "Reset your Pix-kit password",
+    "resetTitle": "Confirm password reset"
+  },
+  "fr": {
+    "subject": "Confirmez votre compte Pix-kit",
+    "title": "Confirmer mon adresse e-mail",
+    "instruction": "Ouvrez ce lien sécurisé, puis confirmez votre demande sur Pix-kit.",
+    "expiry": "Ce lien expire dans 30 minutes et ne peut être utilisé qu’une fois.",
+    "ignore": "Si vous n’avez pas demandé cet e-mail, vous pouvez l’ignorer.",
+    "resetSubject": "Réinitialisez votre mot de passe Pix-kit",
+    "resetTitle": "Confirmer la réinitialisation"
+  },
+  "de": {
+    "subject": "Bestätige dein Pix-kit-Konto",
+    "title": "E-Mail bestätigen",
+    "instruction": "Öffne diesen sicheren Link und bestätige deine Anfrage auf Pix-kit.",
+    "expiry": "Dieser Link läuft in 30 Minuten ab und kann einmal verwendet werden.",
+    "ignore": "Wenn du diese E-Mail nicht angefordert hast, kannst du sie ignorieren.",
+    "resetSubject": "Setze dein Pix-kit-Passwort zurück",
+    "resetTitle": "Zurücksetzen bestätigen"
+  },
+  "es": {
+    "subject": "Confirma tu cuenta de Pix-kit",
+    "title": "Confirmar mi correo",
+    "instruction": "Abre este enlace seguro y confirma tu solicitud en Pix-kit.",
+    "expiry": "Este enlace caduca en 30 minutos y solo se puede usar una vez.",
+    "ignore": "Si no solicitaste este correo, puedes ignorarlo.",
+    "resetSubject": "Restablece tu contraseña de Pix-kit",
+    "resetTitle": "Confirmar restablecimiento"
+  },
+  "it": {
+    "subject": "Conferma il tuo account Pix-kit",
+    "title": "Conferma la mia email",
+    "instruction": "Apri questo link sicuro, poi conferma la richiesta su Pix-kit.",
+    "expiry": "Il link scade tra 30 minuti e può essere usato una sola volta.",
+    "ignore": "Se non hai richiesto questa email, puoi ignorarla.",
+    "resetSubject": "Reimposta la password Pix-kit",
+    "resetTitle": "Conferma reimpostazione"
+  },
+  "pt": {
+    "subject": "Confirma a tua conta Pix-kit",
+    "title": "Confirmar o meu e-mail",
+    "instruction": "Abre esta ligação segura e confirma o pedido no Pix-kit.",
+    "expiry": "Esta ligação expira em 30 minutos e só pode ser utilizada uma vez.",
+    "ignore": "Se não pediste este e-mail, podes ignorá-lo.",
+    "resetSubject": "Repõe a tua palavra-passe Pix-kit",
+    "resetTitle": "Confirmar reposição"
+  },
+  "pt-br": {
+    "subject": "Confirme sua conta Pix-kit",
+    "title": "Confirmar meu e-mail",
+    "instruction": "Abra este link seguro e confirme sua solicitação no Pix-kit.",
+    "expiry": "Este link expira em 30 minutos e só pode ser usado uma vez.",
+    "ignore": "Se você não solicitou este e-mail, pode ignorá-lo.",
+    "resetSubject": "Redefina sua senha Pix-kit",
+    "resetTitle": "Confirmar redefinição"
+  },
+  "nl": {
+    "subject": "Bevestig je Pix-kit-account",
+    "title": "Mijn e-mail bevestigen",
+    "instruction": "Open deze beveiligde link en bevestig je verzoek op Pix-kit.",
+    "expiry": "Deze link verloopt over 30 minuten en kan één keer worden gebruikt.",
+    "ignore": "Als je deze e-mail niet hebt aangevraagd, kun je deze negeren.",
+    "resetSubject": "Stel je Pix-kit-wachtwoord opnieuw in",
+    "resetTitle": "Wachtwoordherstel bevestigen"
+  },
+  "pl": {
+    "subject": "Potwierdź konto Pix-kit",
+    "title": "Potwierdź mój e-mail",
+    "instruction": "Otwórz bezpieczny link, a następnie potwierdź żądanie w Pix-kit.",
+    "expiry": "Link wygasa za 30 minut i można go użyć tylko raz.",
+    "ignore": "Jeśli nie proszono o tę wiadomość, można ją zignorować.",
+    "resetSubject": "Zresetuj hasło Pix-kit",
+    "resetTitle": "Potwierdź reset hasła"
+  },
+  "ru": {
+    "subject": "Подтвердите аккаунт Pix-kit",
+    "title": "Подтвердить почту",
+    "instruction": "Откройте защищённую ссылку и подтвердите запрос на Pix-kit.",
+    "expiry": "Ссылка действует 30 минут и может быть использована только один раз.",
+    "ignore": "Если вы не запрашивали это письмо, проигнорируйте его.",
+    "resetSubject": "Сбросьте пароль Pix-kit",
+    "resetTitle": "Подтвердить сброс пароля"
+  },
+  "uk": {
+    "subject": "Підтвердьте обліковий запис Pix-kit",
+    "title": "Підтвердити пошту",
+    "instruction": "Відкрийте захищене посилання й підтвердьте запит на Pix-kit.",
+    "expiry": "Посилання діє 30 хвилин і може бути використане лише один раз.",
+    "ignore": "Якщо ви не запитували цей лист, можете його проігнорувати.",
+    "resetSubject": "Скиньте пароль Pix-kit",
+    "resetTitle": "Підтвердити скидання пароля"
+  },
+  "tr": {
+    "subject": "Pix-kit hesabını doğrula",
+    "title": "E-postamı onayla",
+    "instruction": "Bu güvenli bağlantıyı açın ve Pix-kit’te isteğinizi onaylayın.",
+    "expiry": "Bu bağlantı 30 dakika içinde sona erer ve bir kez kullanılabilir.",
+    "ignore": "Bu e-postayı sen istemediysen yok sayabilirsin.",
+    "resetSubject": "Pix-kit parolanı sıfırla",
+    "resetTitle": "Parola sıfırlamayı onayla"
+  },
+  "ar": {
+    "subject": "تأكيد حسابك في Pix-kit",
+    "title": "تأكيد بريدي الإلكتروني",
+    "instruction": "افتح هذا الرابط الآمن ثم أكّد طلبك على Pix-kit.",
+    "expiry": "تنتهي صلاحية الرابط خلال 30 دقيقة ويمكن استخدامه مرة واحدة.",
+    "ignore": "إذا لم تطلب هذه الرسالة، يمكنك تجاهلها.",
+    "resetSubject": "إعادة تعيين كلمة مرور Pix-kit",
+    "resetTitle": "تأكيد إعادة تعيين كلمة المرور"
+  },
+  "hi": {
+    "subject": "अपना Pix-kit खाता सत्यापित करें",
+    "title": "मेरे ईमेल की पुष्टि करें",
+    "instruction": "यह सुरक्षित लिंक खोलें, फिर Pix-kit पर अपने अनुरोध की पुष्टि करें।",
+    "expiry": "यह लिंक 30 मिनट में समाप्त होगा और केवल एक बार इस्तेमाल किया जा सकता है।",
+    "ignore": "यदि आपने इस ईमेल का अनुरोध नहीं किया है, तो इसे अनदेखा कर सकते हैं।",
+    "resetSubject": "अपना Pix-kit पासवर्ड रीसेट करें",
+    "resetTitle": "पासवर्ड रीसेट की पुष्टि करें"
+  },
+  "id": {
+    "subject": "Konfirmasi akun Pix-kit Anda",
+    "title": "Konfirmasi email saya",
+    "instruction": "Buka tautan aman ini, lalu konfirmasikan permintaan di Pix-kit.",
+    "expiry": "Tautan ini berlaku selama 30 menit dan hanya dapat digunakan sekali.",
+    "ignore": "Jika Anda tidak meminta email ini, Anda dapat mengabaikannya.",
+    "resetSubject": "Atur ulang kata sandi Pix-kit Anda",
+    "resetTitle": "Konfirmasi pengaturan ulang"
+  },
+  "ja": {
+    "subject": "Pix-kitアカウントを確認",
+    "title": "メールアドレスを確認",
+    "instruction": "この安全なリンクを開き、Pix-kitでリクエストを確認してください。",
+    "expiry": "このリンクの有効期限は30分で、1回のみ使用できます。",
+    "ignore": "このメールに心当たりがない場合は、無視してください。",
+    "resetSubject": "Pix-kitのパスワードを再設定",
+    "resetTitle": "パスワードの再設定を確認"
+  },
+  "ko": {
+    "subject": "Pix-kit 계정 확인",
+    "title": "내 이메일 확인",
+    "instruction": "안전한 링크를 연 다음 Pix-kit에서 요청을 확인하세요.",
+    "expiry": "이 링크는 30분 동안 유효하며 한 번만 사용할 수 있습니다.",
+    "ignore": "이 이메일을 요청하지 않았다면 무시해도 됩니다.",
+    "resetSubject": "Pix-kit 비밀번호 재설정",
+    "resetTitle": "비밀번호 재설정 확인"
+  },
+  "zh-cn": {
+    "subject": "确认您的 Pix-kit 账户",
+    "title": "确认我的邮箱",
+    "instruction": "打开此安全链接，然后在 Pix-kit 上确认您的请求。",
+    "expiry": "此链接在 30 分钟内有效，且只能使用一次。",
+    "ignore": "如果您未请求此邮件，可以忽略它。",
+    "resetSubject": "重置您的 Pix-kit 密码",
+    "resetTitle": "确认重置密码"
+  },
+  "zh-tw": {
+    "subject": "確認您的 Pix-kit 帳戶",
+    "title": "確認我的電子郵件",
+    "instruction": "開啟此安全連結，然後在 Pix-kit 上確認您的要求。",
+    "expiry": "此連結在 30 分鐘內有效，且只能使用一次。",
+    "ignore": "如果您未要求此郵件，可以忽略它。",
+    "resetSubject": "重設您的 Pix-kit 密碼",
+    "resetTitle": "確認重設密碼"
+  }
+}

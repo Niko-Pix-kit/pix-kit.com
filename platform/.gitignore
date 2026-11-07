@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.supabase/
+private-content/
+supabase/config.toml
+supabase/.temp/
+supabase/.branches/
+__pycache__/

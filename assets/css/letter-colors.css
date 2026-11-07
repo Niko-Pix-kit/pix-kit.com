@@ -1,0 +1,13 @@
+/* Color only P/p and K/k inside recognized Pix-kit family wordmarks.
+   Body copy uses darker colors for contrast; large brand displays use logo colors. */
+.brand-p { color: #006aa6; }
+.brand-k { color: #b94700; }
+:is(h1, h2, h3, .brand) .brand-p { color: #0084ce; }
+:is(h1, h2, h3, .brand) .brand-k { color: #ff6600; }
+/* White-on-blue action buttons need light blue and orange letter variants. */
+.button .brand-p { color: #b8e5ff; }
+.button .brand-k { color: #ffd2b4; }
+@media (forced-colors: active) {
+  .brand-p, .brand-k,
+  :is(h1, h2, h3, .brand, .button) :is(.brand-p, .brand-k) { color: CanvasText; }
+}

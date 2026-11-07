@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "pix-graph",
+    "name": "PixGraph",
+    "package": "com.pixkit.pixgraph",
+    "category": "Data & discovery",
+    "schemaCategory": "EducationalApplication",
+    "headline": "From a picture to real data.",
+    "summary": "Give the numbers in your charts a second life. Digitize a graph from an image, photo or CSV, explore mathematical models, and take your data wherever you work.",
+    "description": "Digitize charts on Android with PixGraph. Extract data from images, calibrate axes, fit 130+ regression models and export CSV files.",
+    "tags": ["Chart digitizer", "130+ models", "CSV export"],
+    "video": "yZPJzSS56U0",
+    "captions": [
+      ["feature-graphic", "Turn graphs into data", "PixGraph chart digitizer: image and CSV import, regression models and data export"],
+      ["screen-01", "Your graph projects", "PixGraph saved chart projects and optional Google Drive backup"],
+      ["screen-02", "Recover a curve", "Digitizing a scientific curve in PixGraph with axis calibration and editable points"],
+      ["screen-03", "Read a pie chart", "PixGraph pie chart calibration and data extraction"],
+      ["screen-04", "Explore a histogram", "Extracting numerical values from a histogram in PixGraph"],
+      ["screen-05", "Find a fitting model", "PixGraph mathematical regression model selection"],
+      ["screen-06", "Compare the results", "Top regression fits in PixGraph ranked by statistical metrics"],
+      ["screen-07", "Look inside the fit", "PixGraph fitted model report with formula and parameter details"]
+    ],
+    "sections": [
+      ["Start with what you have", "That graph has more to tell.", "A chart in a paper. A photograph from class. A CSV from an experiment. Bring it into PixGraph and turn it into data you can use. Work with scatter plots, histograms and pie charts without moving to a desktop."],
+      ["Make each point count", "Calibrate. Zoom. Refine.", "Set up linear or logarithmic axes, zoom into the details and adjust extracted points. Undo and redo make it easy to refine your work. Importing a CSV? Assign columns to X, Y, labels or values to get started."],
+      ["Go beyond the picture", "Find the shape of your data.", "Explore more than 130 mathematical models, from linear and polynomial regression to growth, decay, periodic functions and scientific distributions. Compare fits with R², RMSE and AICc, inspect formulas and parameters, and overlay a fitted curve on your graph."],
+      ["Take the next step", "Keep the work. Use the numbers.", "Projects and tested models are saved automatically so you can pick up where you left off. Export extracted data as CSV for your spreadsheet or analysis workflow. Processing stays on your device; Google Drive synchronization is optional."]
+    ],
+    "audience": "For students, teachers, scientists, engineers and anyone with a graph worth exploring.",
+    "pricing": "Available on Google Play with optional in-app purchases. Check the store listing for current pricing and availability.",
+    "faq": [
+      ["Can I extract data from a photo of a graph?", "Yes. Import an image or take a photo, calibrate the axes and extract points. PixGraph supports scatter plots, histograms and pie charts."],
+      ["Can I export data to a spreadsheet?", "Yes. Export the extracted data as CSV, a format supported by common spreadsheet and data-analysis tools."],
+      ["Do I have to use Google Drive?", "No. PixGraph works on your device. Google Drive synchronization is optional and is used only when you enable it."]
+    ]
+  },
+  {
+    "slug": "pix-moments",
+    "name": "Pix-Moments",
+    "package": "com.pixkit.pixmoment",
+    "category": "Time & memories",
+    "schemaCategory": "ProductivityApplication",
+    "headline": "Every date has a story.",
+    "summary": "A trip to look forward to. A milestone to remember. A little progress, one photo at a time. Bring your countdowns, day counters and recurring dates together in a board that feels like you.",
+    "description": "Count down to events, track days and capture photo progress with Pix-Moments for Android. Custom widgets, reminders and local backups. No ads.",
+    "tags": ["Countdowns & day counters", "Photo widgets", "No ads"],
+    "video": null,
+    "captions": [
+      ["feature-graphic", "A place for your moments", "Pix-Moments countdown and day counter app with photo progress and widgets"],
+      ["01-moments", "Every date. A little story.", "Pix-Moments board with elapsed days, countdowns and repeating events"],
+      ["02-photos", "Your photos, in the picture", "Pix-Moments resizable photo tiles for capturing progress"],
+      ["03-widgets", "Keep it on your home screen", "Pix-Moments Android photo widgets for a plant journal and a trip countdown"],
+      ["04-repeat", "Make room for your routine", "Pix-Moments recurring event editor for daily and weekly routines"],
+      ["05-personalize", "Make it yours", "Personalized Pix-Moments boards with colors and light and dark themes"],
+      ["06-backup", "Keep it. Share it.", "Pix-Moments manual ZIP backup and sharing options"],
+      ["07-video", "Watch your progress move", "Pix-Moments Premium photo timeline export to MP4 video or animated GIF"],
+      ["08-premium", "Start free. Keep it simple.", "Pix-Moments free features and optional one-time lifetime Premium upgrade"]
+    ],
+    "sections": [
+      ["Since. Until. Repeat.", "Time, in the way you need it.", "See the days since a meaningful moment, count down to a holiday or deadline, or keep a recurring routine in view. Repeat events daily, weekly, monthly or yearly, choose several weekdays, or set dates such as the first and third Saturday."],
+      ["A picture of progress", "See the little changes add up.", "Follow a growing plant, a renovation or a creative project with dated photos. Take a photo or import one, revisit the timeline, and use the previous image as a transparent camera guide for consistent framing. Optional alignment runs on your device."],
+      ["Your board, your way", "Give what matters a place.", "Choose colors, emojis and card styles. Resize and arrange your tiles, organize them into categories, and find a Moment with search and sorting. Put a photo widget or the next event in a category on your Android home screen, with reminders and milestone notifications when you need them."],
+      ["A story you can replay", "Turn photos into a little film.", "With optional Premium, export your photo timeline as a silent MP4 video up to 1080p or a looping GIF up to 720 pixels on its longest side. Choose the total duration and share a sequence that shows how far you have come."],
+      ["Yours to keep", "Your moments stay with you.", "Everyday use needs no account. Moments and photos live on your device, with manual ZIP backups to keep a copy or move to another phone. There is no automatic cloud sync. A backup contains your complete collection, so check what you are sharing."],
+      ["Start small. Grow when you want.", "No ads. No subscriptions.", "Start free with one active Since, one Until and one Repeat, up to three Moments in total including archived and completed ones. Photos, widgets, reminders, categories and ZIP backup are included. A one-time lifetime Premium purchase unlocks unlimited active Moments and MP4/GIF export."]
+    ],
+    "audience": "For the dates you look forward to, the memories you keep, and the progress you want to see. Available in 19 languages.",
+    "pricing": "Free to start. Optional Premium is a one-time lifetime purchase. Both versions are ad-free, with no subscriptions. See Google Play for local pricing.",
+    "faq": [
+      ["Is Pix-Moments free?", "Yes. The free version includes one active Moment of each type (Since, Until and Repeat), with a maximum of three Moments in total, including archived and completed ones. Photos, widgets, reminders, categories and ZIP backup are included. Optional Premium removes the active Moment limit and adds MP4/GIF export."],
+      ["Does Pix-Moments have ads or subscriptions?", "No. Both versions are ad-free. Premium is an optional one-time purchase for lifetime access."],
+      ["Can I put a countdown or photo on my home screen?", "Yes. Long-press an empty area of your Android home screen, open Widgets and choose Pix-Moments. Select a Moment or a category for the Next event widget, then resize it. Steps can vary by launcher."],
+      ["Are my photos backed up automatically?", "No. Your photos and Moments are stored locally. Export a manual ZIP backup from Settings to keep a separate copy or move to another device. There is no automatic cloud synchronization."],
+      ["Why might a reminder arrive late?", "Reminder delivery depends on Android permissions and device settings. Force-stopping the app pauses background work until you open it again."]
+    ]
+  }
+]
