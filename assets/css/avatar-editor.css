@@ -1,0 +1,49 @@
+.pixel-avatar-editor { box-sizing: border-box; min-width: 0; max-width: 42rem; margin-block: 1.5rem; padding: clamp(.75rem, 3vw, 1.25rem); border: 1px solid #dce4ee; border-radius: 1.25rem; background: #f7faff; }
+.pixel-avatar-editor[hidden] { display: none; }
+.pixel-editor-header { display: flex; align-items: center; justify-content: space-between; gap: .75rem; margin-block-end: 1rem; }
+.pixel-editor-header > div:first-child { min-width: 0; overflow-wrap: anywhere; }
+.pixel-editor-header h3 { margin: 0 0 .5rem; font-size: 1.2rem; }
+.pixel-editor-help { margin: 0; max-width: 32rem; font-size: .9rem; }
+.pixel-editor-preview { flex: 0 0 auto; padding: .35rem; border: 1px solid #dce4ee; border-radius: .75rem; background: #fff; }
+.pixel-editor-preview svg { display: block; width: clamp(3rem, 15vw, 6rem); height: auto; border-radius: .5rem; image-rendering: pixelated; }
+.pixel-editor-workspace { display: grid; grid-template-columns: minmax(0, 1fr) minmax(8rem, .65fr); gap: 1rem; align-items: start; }
+.pixel-paint-grid { box-sizing: border-box; display: grid; grid-template-columns: repeat(16, minmax(0, 1fr)); width: 100%; aspect-ratio: 1; direction: ltr; border: 2px solid #52647d; border-radius: .25rem; overflow: hidden; touch-action: none; user-select: none; background: #fff; }
+.pixel-paint-row { display: contents; }
+.pixel-avatar-editor .pixel-paint-cell { box-sizing: border-box; display: block; min-width: 0; min-height: 0; width: 100%; height: auto; aspect-ratio: 1; padding: 0; border: 0; border-radius: 0; outline: 1px solid #14203320; outline-offset: -1px; cursor: crosshair; touch-action: none; }
+.pixel-avatar-editor .pixel-paint-cell:focus-visible { position: relative; z-index: 1; outline: 2px solid #142033; outline-offset: -2px; box-shadow: inset 0 0 0 3px #fff; }
+.pixel-editor-controls { min-width: 0; }
+.pixel-palette { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .5rem; direction: ltr; }
+.pixel-avatar-editor .pixel-palette-button { box-sizing: border-box; display: grid; place-items: center; min-width: 0; min-height: 2rem; width: 100%; aspect-ratio: 1; padding: 0; border: 1px solid #52647d; border-radius: .45rem; color: #142033; font: 700 1.5rem/1 sans-serif; cursor: pointer; }
+.pixel-avatar-editor .pixel-palette-button[aria-pressed="true"] { outline: 3px solid #0088cc; outline-offset: 2px; box-shadow: inset 0 0 0 2px #fff; }
+.pixel-avatar-editor .pixel-palette-button:focus-visible { outline: 3px solid #142033; outline-offset: 2px; }
+.pixel-editor-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .5rem; margin-block-start: 1rem; }
+.pixel-avatar-editor .pixel-editor-actions button { min-width: 0; width: 100%; padding: .65rem .3rem; font-size: .9rem; white-space: normal; overflow-wrap: anywhere; }
+.pixel-editor-count { display: block; margin-block-start: .75rem; direction: ltr; text-align: center; font-variant-numeric: tabular-nums; }
+.pixel-avatar-editor button:disabled { opacity: .45; cursor: default; }
+.pixel-color-0 { background-color: #fff; background-image: repeating-conic-gradient(#dce4ee 0 25%, #fff 0 50%); background-size: .75rem .75rem; }
+.pixel-color-1 { background: #142033; }
+.pixel-color-2 { background: #fff; }
+.pixel-color-3 { background: #0088cc; }
+.pixel-color-4 { background: #ff6b00; }
+.pixel-color-5 { background: #74d3ff; }
+.pixel-color-6 { background: #ffe2bf; }
+.pixel-color-7 { background: #275dad; }
+.pixel-color-8 { background: #ffb34d; }
+.pixel-color-9 { background: #65c9a5; }
+.pixel-color-a { background: #276a55; }
+.pixel-color-b { background: #b997f3; }
+.pixel-color-c { background: #7154af; }
+.pixel-color-d { background: #ef7181; }
+.pixel-color-e { background: #ffd66b; }
+.pixel-color-f { background: #9eadc4; }
+@media (max-width: 36rem) {
+  .pixel-editor-workspace { grid-template-columns: minmax(0, 1fr); }
+  .pixel-paint-grid { max-width: 20rem; justify-self: center; }
+  .pixel-palette { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: .4rem; }
+  .pixel-avatar-editor .pixel-palette-button { min-height: 1.25rem; }
+  .pixel-editor-actions { max-width: 20rem; margin-inline: auto; }
+}
+@media (forced-colors: active) {
+  .pixel-avatar-editor .pixel-paint-cell,
+  .pixel-avatar-editor .pixel-palette-button { forced-color-adjust: none; }
+}

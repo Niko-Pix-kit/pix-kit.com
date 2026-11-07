@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Pixel explorer book">
+  <rect width="96" height="96" rx="20" fill="#eaf6ff"/>
+  <path d="M18 24h25l5 6 5-6h25v48H54l-6 7-6-7H18z" fill="#fff" stroke="#007fc4" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M48 31v43M26 39h14m-14 10h14m16-10h14m-14 10h14" fill="none" stroke="#007fc4" stroke-width="4"/>
+  <path d="M27 58h12v6H27zm29 0h13v6H56zM64 13h7v8h-7z" fill="#ff7900"/>
+</svg>

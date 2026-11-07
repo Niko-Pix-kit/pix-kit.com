@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Pixel spark">
+  <rect width="96" height="96" rx="20" fill="#fff3e7"/>
+  <path d="M42 13h12v18h17v12h12v12H65v16H54v13H42V65H24V54H12V42h19V25h11z" fill="#ff7900"/>
+  <path d="M40 41h6v8h-6zm15 0h6v8h-6zM43 55h14v5H43z" fill="#075d92"/>
+  <path d="M15 15h8v8h-8zm60 60h8v8h-8z" fill="#008bc7"/>
+</svg>
